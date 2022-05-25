@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+  <title>Product Detail </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="title" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="robots" content="index, follow" />
+  <meta name="revisit-after" content="10 days" />
+  <meta name="author" content="http://sivaiot.co" />
+  <meta name="DC.title" content="Product Detail" />
+  <meta name="geo.region" content="IN-GA" />
+  <meta name="geo.placename" content="Verna" />
+  <meta name="geo.position" content="15.360746;73.958314" />
+  <meta name="ICBM" content="15.360746, 73.958314" />
+  <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" type="text/css" media="all" href="/src/style_v2.css">
+  <link rel="stylesheet" type="text/css" media="all" href="fancybox/jquery.fancybox.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="fancybox/jquery.fancybox.js?v=2.0.6"></script>
+  <style>
+    .theme-color{
+      color:#1e4188 !important;
+    }
+
+    .comparison-div {
+      background-image: url("img/comp.jpg");
+      min-height: 100%;
+      height: 100%;
+      background-size: cover;
+      box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+      color: #fff;
+    }
+
+    .category-title-div:hover {
+      background-color: #e0e0e0;
+    }
+
+    .category-title-div {
+      height: 100%;
+      padding: 0 1rem;
+      /*  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+      width: 100%;
+      border-style: solid !important;
+      border-color: #39b54a !important;
+      border-width: 1px !important;
+      cursor: pointer;
+      margin-bottom: 5px;
+    }
+
+    .category-title-div-clicked {
+      height: 100%;
+      padding: 0 1rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      width: 100%;
+      border-style: solid !important;
+      border-color: #39b54a !important;
+      border-width: 1px !important;
+      cursor: pointer;
+      margin-bottom: 5px;
+      background-color: #dcedc8;
+    }
+
+    .list-div-inner {
+      margin-top: 12px;
+    }
+
+    .list-div-h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .category-products-list {
+      margin-top: -40px;
+      margin-bottom: -60px;
+    }
+
+    .align-right {
+      text-align: right;
+    }
+
+    .table-h2 {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: -10px;
+    }
+
+    .margin-top-custom {
+      margin-top: 20px;
+    }
+
+
+    @media screen and (max-width: 750px) {
+
+      .product-list-div-mobile-margin {
+        margin-top: 450px !important;
+      }
+
+      .center-in-mobile-guide {
+        margin-left: -15% !important;
+        margin-top: 140px !important;
+
+        text-align: center !important;
+      }
+
+      .mobile-view-center {
+        text-align: center !important;
+      }
+
+      .mobile-align-right {
+        text-align: right !important;
+      }
+
+    }
+
+    @media screen and (min-width: 755px) {
+      .product-list-div-mobile-margin {
+        margin-top: 120px !important;
+      }
+    }
+
+
+
+    .mobile-social-display {
+      display: none;
+    }
+
+    .social-icons {
+      padding-right: 2px !important;
+    }
+
+
+    @media screen and (max-width: 750px) {
+      #logo img {
+
+        margin-left: 9% !important;
+      }
+
+      .mobile-center-align-text {
+        text-align: center !important;
+      }
+
+      .mobile-margin {
+        margin-top: -45px !important;
+      }
+
+      .mobile-social-display {
+        display: block;
+        margin-left: 5% !important;
+        letter-spacing: 4px !important;
+      }
+
+      .desktop-social-display {
+        display: none !important;
+      }
+
+      .newsletter-mobile-center {
+        margin-left: 6% !important;
+      }
+
+    }
+  </style>
+</head>
+
+<body id="top">
+  <div id="toheader"></div>
+  <div class="bgded overlay" style="background-image:url('img/idenpro-header-bg.jpg');">
+    <div class="wrapper row2">
+      <div id="breadcrumb" class="hoc clear">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="#" id="breadcrumbTitle"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper row3">
+    <main class="hoc container clear">
+      <div id="pageBanner"></div>      
+      <h2 style="line-height: 1.40em;" id="pageSubHeading"></h2>
+      <div id="detailHtml"></div>
+      <div class="container product-details ">
+        <div id="categoryDiv"></div>
+      </div>
+    </main>
+  </div>
+
+  <div id="footer"></div>
+  <div id="footernewsletter"></div>
+  <div id="footercopyright"></div>
+
+  <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+
+  <script src="layout/scripts/jquery.backtotop.js"></script>
+  <script src="layout/scripts/jquery.mobilemenu.js"></script>
+  <script src="layout/scripts/jquery.placeholder.min.js"></script>
+  <script async type="text/javascript" src="src/js/smk-accordion.js"></script>
+
+  <script src="src/productDetail.js"></script>
+  <script src="src/headerFooterLoader.js"></script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Siva-id - Contact Us</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="title" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="robots" content="index, follow" />
+  <meta name="revisit-after" content="10 days" />
+  <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+  <link rel="stylesheet" type="text/css" media="all" href="fancybox/jquery.fancybox.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="fancybox/jquery.fancybox.js?v=2.0.6"></script>
+
+  <script type="text/javascript">
+    function CheckSource(val) {
+      var element = document.getElementById('othn');
+      if (val == 'select source' || val == 'other')
+        element.style.display = 'block';
+      else
+        element.style.display = 'none';
+    }
+
+  </script>
+
+</head>
+
+<body id="top">
+
+
+  <div id="toheader"></div>
+  <!-- style="background-image:url('layout/img/side-bg.jpg');" -->
+  <div class="wrapper row3">
+    <main class="hoc container clear">
+      <h2 style="line-height: 1.40em;font-size: 32px;">SIVA-ID Patient ID, Tamperproof RFID labels & Car Park
+        ticketing Sales </h2>
+      <p style="color: #000;">Drop an inquiry / Call us <a href="tel:32470311907"><b>+00 000 000 000 </b></a> / Email
+        us at <a href="mailto:info@sivaid.com"> <b>info@sivaid.com</b></a> and we will be glad to respond.</p>
+      <br>
+      <div class="group btmspace-50 demo">
+        <div class="one_half first">
+          <br><br>
+          <h2 style=" font-size: 24px;">Address:</h2>
+          <h2 style="color:#2889e4;">SIVA-ID</h2>
+          <p style="color: #000;">sjhdgsjdhjshd, <br>sdsdsdsdsd, sdsdsdsdsd</p>
+          <br><br>
+          <!-- <h2 style="line-height: 1.40em;font-size: 32px;">IdenPro Patient ID, Tamperproof RFID labels & Car Park ticketing Sales </h2>	  	 -->
+          <h2 style=" font-size: 24px;">Contact:</h2>
+          <p style="color: #000;"><strong>Mr. Some name</strong><br>
+            Business Development Manager<br>
+            <strong>Email:</strong><a href="mailto:filip@sivaid.com"> <b>filip@sivaid.com</b></a>
+          </p>
+        </div>
+        <div class="one_half">
+          <div class="content">
+            <!-- form start -->
+            <div id="comments">
+              <h2 style="color: #2889e4;font-weight: bold;">Get In Touch!</h2>
+              <form action="contacts.php" method="post" name="form">
+                <div class="one_half first">
+                  <label for="name" style="color: #fff;">Name <span>*</span></label>
+                  <input type="text" name="name" id="name" value="" size="22" required placeholder="Enter your name">
+                </div>
+                <div class="one_half">
+                  <label for="email" style="color: #fff;">Email <span>*</span></label>
+                  <input type="email" name="email" id="email" value="" size="22" required
+                    placeholder="Enter your email ID">
+                </div>
+                <div class="one_half first">
+                  <label for="source" style="color: #fff;">Where did you heard about us?<span>*</span></label>
+                  <select name="oth" required onchange='CheckSource(this.value);' />
+                  <option>select source</option>
+                  <option value="search engine">Search Engine</option>
+                  <option value="social media">Social Media</option>
+                  <option value="e-Mail campaigns">E-Mail Campaigns</option>
+                  <option value="exhibitions">Exhibitions</option>
+                  <option value="other">Other Sources, Please Specify</option>
+                  </select>
+                  <input type="text" name="othn" id="othn" style='display:none;' />
+                </div>
+                <div class="one_half">
+                  <label for="company" style="color: #fff;">Company</label>
+                  <input type="text" name="company" id="company" value="" size="22"
+                    placeholder="Enter your company name">
+                </div>
+                <div class="one_half first">
+                  <label for="subject" style="color: #fff;">Subject<span>*</span></label>
+                  <input type="text" name="subject" id="subject" value="" size="22" required
+                    placeholder="Enter your subject">
+                </div>
+                <div class="one_half">
+                  <label for="phone" style="color: #fff;">Phone</label>
+                  <input type="text" name="phone" id="phone" value="" size="22" placeholder="Enter your phone">
+                </div>
+                <div class="content">
+                  <label for="message" style="color: #fff;">Your Message<span>*</span></label>
+                  <textarea name="message" id="message" rows="4" required placeholder="Enter your Message"></textarea>
+                </div>
+                <div class="content">
+                  <label for="message" style="color: #fff;">Please select and verify captcha<span>*</span></label>
+                  <div class="g-recaptcha" data-sitekey="6Let8EMUAAAAABlVA6qIA-P0PUf3yXDfXFPSrjsM"></div>
+                </div>
+
+                <div class="content">
+                  <input type="submit" name="submit" value="Submit" data-submit="...Sending">
+                  <input type="reset" name="reset" value="Reset">
+                </div>
+
+                <div>&nbsp;</div>
+              </form>
+            </div>
+            <!-- form end -->
+          </div>
+        </div>
+      </div>
+      <!-- main body -->
+      <!-- / main body -->
+      <div class="clear"></div>
+    </main>
+  </div>
+
+  <!-- Modal -->
+  <a href="#" class="modal" id="modal-one" aria-hidden="true">
+  </a>
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <h2>Subscribe our Newsletter</h2>
+      <p>Get latest news and updates on our IdenPro Products & Solutions!</p>
+      <a href="#" class="btn-close" aria-hidden="true">×</a>
+    </div>
+    <div class="modal-body">
+      <form name="nForm" id="nForm" action="newsletters.php" method="post" class="validate-form registration-form">
+        <div class="form-group">
+          <input type="text" name="firstname" placeholder="First name..." class="" id="form-first-name" data-label=""
+            value="" required aria-required="true" /> &nbsp;
+        </div>
+        <div class="form-group">
+          <input type="text" name="lastname" placeholder="Last name..." class="" id="form-last-name" data-label=""
+            value="" required aria-required="true" /> &nbsp;
+        </div>
+        <div class="form-group">
+          <input type="text" name="account_id" placeholder="Organization name..." class="" id="form-organization-name"
+            data-label="" value="" required aria-required="true" /> &nbsp;
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Email..." class="" id="form-email" data-label="" value=""
+            required aria-required="true" pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+            title="Must be formatted email@domain.com" /> &nbsp;
+        </div>
+        <button type="submit" value="submit" class="btn">SIGN UP</button>
+      </form>
+    </div>
+
+  </div>
+  <!-- /Modal -->
+
+  <div id="footer"></div>
+  <div id="footernewsletter"></div>
+  <div id="footercopyright"></div>
+
+
+  <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+  <!-- JAVASCRIPTS -->
+  <!-- <script src="layout/scripts/jquery.min.js"></script> -->
+  <script src="layout/scripts/jquery.backtotop.js"></script>
+  <script src="layout/scripts/jquery.mobilemenu.js"></script>
+  <!-- IE9 Placeholder Support -->
+  <script src="layout/scripts/jquery.placeholder.min.js"></script>
+  <!-- / IE9 Placeholder Support -->
+
+  <!-- google captcha -->
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src="layout/scripts/validator.js"></script>
+  <script src="layout/scripts/contact.js"></script>
+  <!-- google captcha -->
+  <!-- JavaScript for WebKit (iOS & OSX) forces HTML5 validation (:invalid pseudo class) on form submit by adding .invalid class to trigger --->
+  <script type="text/javascript">
+    function hasHtml5Validation() {
+      return typeof document.createElement('input').checkValidity === 'function';
+    }
+    if (hasHtml5Validation()) {
+      $('.validate-form').submit(function (e) {
+        if (!this.checkValidity()) {
+          e.preventDefault();
+          $(this).addClass('invalid');
+        } else {
+          $(this).removeClass('invalid');
+        }
+      });
+    }
+  </script>
+  <script src="src/headerFooterLoader.js"></script>
+</body>
+
+</html>

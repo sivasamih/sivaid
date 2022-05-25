@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Latest News & Upcoming Events</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="title" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="robots" content="index, follow" />
+  <meta name="revisit-after" content="10 days" />
+  <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" type="text/css" media="all" href="fancybox/jquery.fancybox.css">
+  <link rel="stylesheet" href="src/css/smk-accordion.css" />
+  <script type="text/javascript" src="vendor/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="fancybox/jquery.fancybox.js?v=2.0.6"></script>
+</head>
+
+<body id="top">
+  <div id="toheader"></div>
+  <div class="bgded overlay" style="background-image:url('img/idenpro-header-bg.jpg');">
+    <div class="wrapper row2">
+      <div id="pagetitle" class="hoc clear">
+        <h2>Latest News & Upcoming Events</h2>
+      </div>
+      <div id="breadcrumb" class="hoc clear">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#">News & Events</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper row3">
+    <main class="hoc container clear">
+      <div class="content">
+        <div class="container_demo">
+          <h1>Upcoming Events</h1>
+          <div class="scrollable">
+            <table style="background-color: #DDDDDD;">
+              <tbody>
+                <tr>
+                  <td>
+                    <center>
+                      <img src="img/events/medica-08-10-21.png" style="height:120px" alt="2021_MEDICA">
+                    </center>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h1>Latest News</h1>
+            <div class="accordion">
+              <div class="accordion-item">
+                <a href="#" class="heading">
+                  <div class="icon"></div>
+                  <div class="title"></div>
+                </a>
+                <div class="content">
+                  <div class="group demo">
+                    <div class="one_third first"><img border="0" src="img/events/2019-Technology-Awards-Awards-Logo.jpg"
+                        alt="2019-Technology-Awards-Awards">
+                    </div>
+                    <div class="two_third">
+                      <h1 class="title" style="margin-left: 15px;">Global Health & Pharma Technology Awards 2019</h1>
+                      <p style="margin-left: 15px;"><strong>IdenPro BV</strong> - has been recognised by Global Health
+                        & Pharma through its Technology Awards programme for our contributions in the field of
+                        healthcare through innovative adoption of technological advancements in our products. <br>
+                        <strong>Awards:</strong><a
+                          href="https://www.ghp-news.com/ghp-magazine-announces-winners-of-the-2019-ghp-technology-awards/">
+                          GHP Magazine Announces Winners of the 2019 GHP Technology Awards</a><br>
+                        <strong>Winners List:</strong><a href="https://www.ghp-news.com/winners-list/?award=11517-2019">
+                          Technology Awards - Full
+                          Winners Listing 2019</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="accordion">
+              <div class="accordion-item">
+                <a href="#" class="heading">
+                  <div class="icon"></div>
+                  <div class="title"></div>
+                </a>
+                <div class="content">
+                  <div class="group demo">
+                    <div class="one_third first"><img border="0" src="img/events/Medica-2019.jpg"
+                        alt="IdenPro @ Medica-2019"></div>
+                    <div class="two_third">
+                      <h1 class="title" style="margin-left: 15px;">Medica 2019</h1>
+                      <p style="margin-left: 15px;"><strong>MEDICA 2019 - Dusseldorf, Germany</strong> - IdenPro had
+                        an excellent outing at Medica 2019 and enjoyed every bit of it interacting with customers and
+                        showcasing our range of Patient ID wristbands and other healthcare products. The booth had
+                        visitors from over 60 different nationalities and attracted a lot of attention towards our
+                        newly launched brands of healthcare products and solutions. We also saw huge interest in our
+                        patient safety solutions and inkjet printable wristbands. We hope to be back next year with
+                        some interesting new additions. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <a href="#" class="modal" id="modal-one" aria-hidden="true"></a>
+  <div class="modal-dialog">
+    <div class="modal-header">
+      <h2>Subscribe our Newsletter</h2>
+      <p>Get latest news and updates on our IdenPro Products & Solutions!</p>
+      <a href="#" class="btn-close" aria-hidden="true">x</a>
+    </div>
+
+    <div class="modal-body">
+      <form name="nForm" id="nForm" action="newsletters.php" method="post" class="validate-form registration-form">
+        <div class="form-group">
+          <input type="text" name="firstname" placeholder="First name..." class="" id="form-first-name" data-label=""
+            value="" required aria-required="true" /> &nbsp;
+        </div>
+        <div class="form-group">
+          <input type="text" name="lastname" placeholder="Last name..." class="" id="form-last-name" data-label=""
+            value="" required aria-required="true" /> &nbsp;
+        </div>
+        <div class="form-group">
+          <input type="text" name="account_id" placeholder="Organization name..." class="" id="form-organization-name"
+            data-label="" value="" required aria-required="true" /> &nbsp;
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Email..." class="" id="form-email" data-label="" value=""
+            required aria-required="true" pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+            title="Must be formatted email@domain.com" /> &nbsp;
+        </div>
+        <button type="submit" value="submit" class="btn">SIGN UP</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="footer"></div>
+  <div id="footernewsletter"></div>
+  <div id="footercopyright"></div>
+
+  <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+
+  <script src="layout/scripts/jquery.backtotop.js"></script>
+  <script src="layout/scripts/jquery.mobilemenu.js"></script>
+  <script src="layout/scripts/jquery.placeholder.min.js"></script>
+  <script type="text/javascript" src="src/js/smk-accordion.js"></script>
+
+  <script type="text/javascript">
+    function hasHtml5Validation() {
+      return typeof document.createElement('input').checkValidity === 'function';
+    }
+    if (hasHtml5Validation()) {
+      $('.validate-form').submit(function (e) {
+        if (!this.checkValidity()) {
+          e.preventDefault();
+          $(this).addClass('invalid');
+        } else {
+          $(this).removeClass('invalid');
+        }
+      });
+    }
+  </script>
+  <script src="src/headerFooterLoader.js"></script>
+</body>
+
+</html>
