@@ -122,6 +122,15 @@ thead {
 
 .btn {
     border-radius: 50px;
+    background-color: #fff !important;
+}
+
+ .black-para-hover-blue{
+     color:#000 !important;
+ }
+
+ .black-para-hover-blue:hover{
+    color:#169e78 !important;
 }
 
 .p-4 {

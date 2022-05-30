@@ -22,6 +22,11 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script type="text/javascript" src="fancybox/jquery.fancybox.js?v=2.0.6"></script>
   <style>
+
+.pageBanner{
+  width: 100% !important;
+}
+
     .theme-color{
       color:#1e4188 !important;
     }
@@ -100,9 +105,7 @@
       }
 
       .center-in-mobile-guide {
-        margin-left: -15% !important;
-        margin-top: 140px !important;
-
+        margin-top: 50px !important;
         text-align: center !important;
       }
 
@@ -162,7 +165,49 @@
       }
 
     }
+
+
+    @media (min-width: 320px) and (max-width: 750px) {
+      .col-0 {
+        width: 100% !important;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .col-full {
+      margin-top: -50px;
+    }
+     }
+
+
+
+/*-------------------------------------*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 30px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-0 {
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+    height: 100%;
+    min-height: 100%;
+}
+
+
+
   </style>
+  
 </head>
 
 <body id="top">
@@ -180,10 +225,33 @@
   </div>
 
   <div class="wrapper row3">
-    <main class="hoc container clear">
-      <div id="pageBanner"></div>      
-      <h2 style="line-height: 1.40em;" id="pageSubHeading"></h2>
-      <div id="detailHtml"></div>
+    <div id="pageBanner"></div> 
+    <main class="hoc container clear">           
+      <h2 style="line-height: 1.40em;font-weight: bold;" id="pageSubHeading"></h2>
+
+
+      <div class="group demo">
+        <div id="wrapper">
+          <div class="row">
+            <div class="col-0">
+              <div id="detailHtml"></div>
+            </div>
+            <div class="col-0">
+              <div class="row small-mobile-margin-top">
+                <div class="col-full text-center center-in-mobile-guide">
+                  <br/><br/>
+                  <h1 class="blue-h2" style="text-align: center;font-weight: bold;">Where to buy?</h1>
+                  <p style="text-align: center;">
+                      <a class="btn black-para-hover-blue" href="#">Channel Partner</a>
+                  </p>
+                  <br/><br/>
+                </div>
+            </div>              
+            </div> 
+          </div>
+        </div>
+      </div>
+      
       <div class="container product-details ">
         <div id="categoryDiv"></div>
       </div>

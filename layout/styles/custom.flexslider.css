@@ -22,7 +22,7 @@ File: Custom Flexslider CSS => For FlexSlider v2.2.0
 /* FlexSlider Necessary Styles
 --------------------------------------------------------------------------------------------------------------- */
 .flexslider{display:block; position:relative; margin:0; padding:0;}
-.flexslider .slides{display:block; width:100%; white-space:nowrap; overflow:hidden;}
+.flexslider .slides{display:block; width:100%;white-space:nowrap; overflow:hidden;height:400px;}
 .flexslider .slides > li{display:none; position:relative; -webkit-backface-visibility:hidden;}
 .flexslider .slides img{display:block; max-width:100%; margin:0 auto;}
 
@@ -88,4 +88,16 @@ File: Custom Flexslider CSS => For FlexSlider v2.2.0
 
 /* Media Queries
 --------------------------------------------------------------------------------------------------------------- */
-@media screen and (max-width:650px){.flex-direction-nav .flex-prev, .flex-direction-nav .flex-next{display:none;}}
+@media screen and (max-width:650px) {
+
+    .flex-direction-nav .flex-prev,
+    .flex-direction-nav .flex-next {
+        display: none;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 1440px) { 
+    .flexslider .slides{
+        height:100% !important;
+    }
+ }
