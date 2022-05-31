@@ -60,6 +60,10 @@
     text-align: right;
 }
 
+.gap{
+    height: 20px !important;
+}
+
 .card {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
@@ -120,18 +124,43 @@ thead {
     border-color: rgba(164, 171, 174, 0.7) !important;
 }
 
+.btn-green {
+    border-radius: 50px;
+    background-color: #39b54a !important;
+    color: #fff !important;
+}
+
 .btn {
     border-radius: 50px;
     background-color: #fff !important;
 }
 
- .black-para-hover-blue{
-     color:#000 !important;
+.blue-para-hover-green{
+    font-weight: bold !important;
+    color:#0072bc !important;
+    letter-spacing: 1px;
+}
+
+.blue-para-hover-green:hover{
+    font-weight: bold !important;
+    color:#39b54a !important;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+ .black-para-hover-green {
+     font-weight: bold !important;
+     color: #000 !important;
  }
 
- .black-para-hover-blue:hover{
-    color:#169e78 !important;
-}
+ .black-para-hover-green:hover {
+    font-weight: bold !important;
+     color: #39b54a !important;
+ }
+
+ .left-product-image{
+     width: 100%;
+ }
 
 .p-4 {
     padding: 3rem !important;
@@ -333,6 +362,17 @@ th {
 
 .grey-text {
     color: #bdbdbd;
+}
+
+.product-specs-heading{
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.background-grey-lighten-4{
+    background-color: #fafafa !important;
 }
 
 @media screen and (max-width: 600px) {

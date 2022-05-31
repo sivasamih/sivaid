@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <title>Siva-id - Contact Us</title>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="title" content="" />
@@ -42,6 +40,55 @@
       <p style="color: #000;">Drop an inquiry / Call us <a href="tel:0000000000"><b>+00 000 000 000 </b></a> / Email
         us at <a href="mailto:info@sivaid.com"> <b>info@sivaid.com</b></a> and we will be glad to respond.</p>
       <br>
+      <div class="content">
+        <div id="comments">
+          <h2 style="color: #2889e4;font-weight: bold;">Get In Touch!</h2>
+          <form action="contacts.php" method="post" name="form">
+            <div class="one_half first">
+              <label for="name" style="color: #fff;">Name <span>*</span></label>
+              <input type="text" name="name" id="name" value="" size="22" required placeholder="Enter your name">
+            </div>
+            <div class="one_half">
+              <label for="email" style="color: #fff;">Email <span>*</span></label>
+              <input type="email" name="email" id="email" value="" size="22" required
+                placeholder="Enter your email ID">
+            </div>
+            <div class="one_half first">
+              <label for="source" style="color: #fff;">Where did you heard about us?<span>*</span></label>
+              <select name="oth" required onchange='CheckSource(this.value);' />
+              <option>select source</option>
+              <option value="search engine">Search Engine</option>
+              <option value="social media">Social Media</option>
+              <option value="e-Mail campaigns">E-Mail Campaigns</option>
+              <option value="exhibitions">Exhibitions</option>
+              <option value="other">Other Sources, Please Specify</option>
+              </select>
+              <input type="text" name="othn" id="othn" style='display:none;' />
+            </div>
+            <div class="one_half">
+              <label for="company" style="color: #fff;">Company</label>
+              <input type="text" name="company" id="company" value="" size="22"
+                placeholder="Enter your company name">
+            </div>
+            <div class="one_half">
+              <label for="phone" style="color: #fff;">Phone</label>
+              <input type="text" name="phone" id="phone" value="" size="22" placeholder="Enter your phone">
+            </div>
+            <div class="content">
+              <label for="message" style="color: #fff;">Your Message<span>*</span></label>
+              <textarea name="message" id="message" rows="4" required placeholder="Enter your Message"></textarea>
+            </div>
+
+            <div class="content">
+              <input type="submit" name="submit" value="Submit" data-submit="...Sending">
+              <input type="reset" name="reset" value="Reset">
+            </div>
+
+            <div>&nbsp;</div>
+          </form>
+        </div>
+        
+      </div>
       <div class="group btmspace-50 demo">
         <div class="one_half first">
           <br><br>
@@ -57,65 +104,7 @@
           </p>
         </div>
         <div class="one_half">
-          <div class="content">
-            <!-- form start -->
-            <div id="comments">
-              <h2 style="color: #2889e4;font-weight: bold;">Get In Touch!</h2>
-              <form action="contacts.php" method="post" name="form">
-                <div class="one_half first">
-                  <label for="name" style="color: #fff;">Name <span>*</span></label>
-                  <input type="text" name="name" id="name" value="" size="22" required placeholder="Enter your name">
-                </div>
-                <div class="one_half">
-                  <label for="email" style="color: #fff;">Email <span>*</span></label>
-                  <input type="email" name="email" id="email" value="" size="22" required
-                    placeholder="Enter your email ID">
-                </div>
-                <div class="one_half first">
-                  <label for="source" style="color: #fff;">Where did you heard about us?<span>*</span></label>
-                  <select name="oth" required onchange='CheckSource(this.value);' />
-                  <option>select source</option>
-                  <option value="search engine">Search Engine</option>
-                  <option value="social media">Social Media</option>
-                  <option value="e-Mail campaigns">E-Mail Campaigns</option>
-                  <option value="exhibitions">Exhibitions</option>
-                  <option value="other">Other Sources, Please Specify</option>
-                  </select>
-                  <input type="text" name="othn" id="othn" style='display:none;' />
-                </div>
-                <div class="one_half">
-                  <label for="company" style="color: #fff;">Company</label>
-                  <input type="text" name="company" id="company" value="" size="22"
-                    placeholder="Enter your company name">
-                </div>
-                <div class="one_half first">
-                  <label for="subject" style="color: #fff;">Subject<span>*</span></label>
-                  <input type="text" name="subject" id="subject" value="" size="22" required
-                    placeholder="Enter your subject">
-                </div>
-                <div class="one_half">
-                  <label for="phone" style="color: #fff;">Phone</label>
-                  <input type="text" name="phone" id="phone" value="" size="22" placeholder="Enter your phone">
-                </div>
-                <div class="content">
-                  <label for="message" style="color: #fff;">Your Message<span>*</span></label>
-                  <textarea name="message" id="message" rows="4" required placeholder="Enter your Message"></textarea>
-                </div>
-                <div class="content">
-                  <label for="message" style="color: #fff;">Please select and verify captcha<span>*</span></label>
-                  <div class="g-recaptcha" data-sitekey="6Let8EMUAAAAABlVA6qIA-P0PUf3yXDfXFPSrjsM"></div>
-                </div>
-
-                <div class="content">
-                  <input type="submit" name="submit" value="Submit" data-submit="...Sending">
-                  <input type="reset" name="reset" value="Reset">
-                </div>
-
-                <div>&nbsp;</div>
-              </form>
-            </div>
-            <!-- form end -->
-          </div>
+         
         </div>
       </div>
       <!-- main body -->

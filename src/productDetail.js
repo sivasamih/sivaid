@@ -75,6 +75,11 @@ $(document).ready(function () {
             `);
             $("#pageSubHeading").html(pageSubHeading);
             $("#detailHtml").html(detailHtml);
+
+            
+
+
+/*
             var tr = "";
             for (var j = 0; j < productList.length; j++) {
                 tr = tr + "<tr><td data-label='PRODUCT' class='align-center mobile-align-right'> <a href='" + productList[j]['link'] + "'><img class='card' src='" + productList[j]['image'] + "'/> </a></td> <td data-label='PRODUCT NAME'> <h2 class='table-h2'> <a href='" + productList[j]['link'] + "'>" + productList[j]['name'] + "</a> " + productList[j]['isNew'] + "</h2> <p>" + productList[j]['desc'] + "</p> </td> <td  data-label='DIMENSIONS' class='align-right'><p> " + productList[j]['dimensions'] + " </p></td> <td data-label='READ RANGE' class='align-right'><p> " + productList[j]['read-range'] + " </p></td>   </tr>";
@@ -100,6 +105,9 @@ $(document).ready(function () {
                 "</div>" +
                 "</div>" +
                 "</div>";
+*/
+
+
         } else {
             catDetail=`
               <h1 class='theme-color'>Oops!</h1> 
