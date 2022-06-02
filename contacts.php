@@ -4,47 +4,22 @@ require('recaptcha-master/src/autoload.php');
 
 // configure
 ini_set("SMTP", "localhost");
-ini_set("sendmail_from", "info@idenpro.com");
+ini_set("sendmail_from", "info@siva-id.co");
 ini_set("smtp_port", "25");
 $from = $_POST['email'];
-$sendTo = '<info@idenpro.com>';
-$subject = 'Website contact inquiry from www.idenpro.com';
+$sendTo = '<info@siva-id.co>';
+$subject = 'Website contact inquiry from www.siva-id.co';
 $fields = array('name' => 'Name', 'email' => 'Email', 'oth' => 'Where did you heard about us?', 'othn' => 'Other Source', 'company' => 'Company', 'subject' => 'Subject', 'phone' => 'Phone', 'message' => 'Message'); // array variable name => Text to appear in the email
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
-$recaptchaSecret = '6Let8EMUAAAAAPqnS1swO35M74gULpc2r3X--Da4';
 
 // let's do the sending
 
 try
 {
     if (!empty($_POST)) {
-
-        // validate the ReCaptcha, if something is wrong, we throw an Exception, 
-        // i.e. code stops executing and goes to catch() block
-        
-        if (!isset($_POST['g-recaptcha-response'])) {
-            throw new \Exception('ReCaptcha is not set.');
-        }
-
-        // do not forget to enter your secret key in the config above 
-        // from https://www.google.com/recaptcha/admin
-        
-        $recaptcha = new \ReCaptcha\ReCaptcha($recaptchaSecret, new \ReCaptcha\RequestMethod\CurlPost());
-        
-        // we validate the ReCaptcha field together with the user's IP address
-        
-        $response = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
-
-
-        if (!$response->isSuccess()) {
-            throw new \Exception('ReCaptcha was not validated.');
-        }
-        
-        // everything went well, we can compose the message, as usually
         
         $emailText = "You have new message from contact form\n=============================\n";
-
         foreach ($_POST as $key => $value) {
 
             if (isset($fields[$key])) {
@@ -63,7 +38,7 @@ try
 
         $responseArray = array('type' => 'success', 'message' => $okMessage);
 		
-		header('Location: http://idenpro.com/thank-you.html');
+		header('Location: http://siva-id.co/thank-you.html');
     }
 }
 catch (\Exception $e)

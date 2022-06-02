@@ -34,7 +34,7 @@ $(document).ready(function () {
             `;
 
                     break;
-                case "Horticulture":
+                case "Horticulture Tags":
                     $("meta[name='keywords']").attr('content', 'example keywords');
                     $("meta[name='description']").attr('content', 'example description');
                     pageBanner = "img/products/productpage/banner/banner_horticulture.jpg";
@@ -47,7 +47,7 @@ $(document).ready(function () {
            
             `;
                     break;
-                case "Steel":
+                case "Tags for Steel and Construction":
                     $("meta[name='keywords']").attr('content', 'example keywords');
                     $("meta[name='description']").attr('content', 'example description');
                     pageBanner = "img/products/productpage/banner/banner_steel.jpg";
