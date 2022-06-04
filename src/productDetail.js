@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $(".category-products-list").hide();
     let productList = [];
     productList=[{
         "image": "img/products/productthumbnail/thumbnail.jpg",
@@ -116,6 +117,18 @@ $(document).ready(function () {
          }
       
         $("#categoryDiv").html(catDetail);
+
+
+
+        $(".category-title-div").click(function () {
+            //$(".category-products-list").hide();
+            var id = $(this).attr("id");
+            //remove all hhighlight class.
+            $("#product_list_" + id).toggle(
+                //function(){ $("#"+id).addClass("category-title-div-clicked");} 
+            );
+
+        });
 
 
     } catch (ex) { }
