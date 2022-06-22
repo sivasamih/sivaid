@@ -26,11 +26,11 @@ $(document).ready(function () {
                     $("meta[name='keywords']").attr('content', 'example keywords');
                     $("meta[name='description']").attr('content', 'example description');
                     pageBanner = "img/products/productpage/banner/banner-chemical-labelling.jpg";
-                    pageSubHeading = "Robust labels for hazardous chemicals";
+                    pageSubHeading = "Heat Resistant Robust tags for Steel, Metals & Construction";
                     detailHtml = `
-                    <p>
-                    SIVA is a responsible supplier of labels for the manufacturing sectors that require labelling for hazardous products. Our knowledge of the IMDG and GHS regulations for the identification of these products allows us to offer guidance on best fit solutions for your labelling needs. Our manufacturing sites use only the highest quality materials to ensure that you are labelling up you're packaging in a responsible manner. Printing technology within this sector is rapidly changing as the shift from thermal printers to full-colour solutions rapidly increases. At SIVA, we fully understand the challenges involved and are happy to offer guidance on best fit solutions, that will allow your business to run efficiently.
-                    </p>
+                        <p>
+                        Siva Group has developed a range of durable tags and labels to meet the demands of the Steel, Metals and Construction industries. We understand the demands placed on labelling in these heavy industries, we aim to match the tag or label to best suit your product or packaging needs. Our manufacturing sites use only the highest quality materials, we are ISO9001:2015 certified across 4 key sites. Our team has been working in these markets for over 25 years.
+                        </p>
                    
             `;
                     break;
