@@ -60,7 +60,7 @@ $(document).ready(function () {
                         },
                         {
                             "name": "Customised Tags & Labels",
-                            "desc": "For a specific size/shape or a printed tag or label that is not available from our stock, we aim to work with you on a date to suit your needs. We can supply sheets, rolls or fan-folded tags dependent on your requirement. We will help plan upcoming deliveries and ensure you are not in a position where you cannot print a label or tag.",
+                            "desc": "For a specific size/shape or a printed tag or label that is not available from our stock, we aim to work with you on a date to suit your needs. We can supply sheets, rolls or fan-folded tags dependent on your requirement. We will help plan upcoming deliveries and ensure you are not in a position where you cannot print a label or tag. <br/><br/> We have a range of stock that is readily available quickly and with a fast turnaround. Our tags are suitable for overprinting by thermal transfer (Toshiba, Zebra, Sato etc.) or desktop laser (OKI, Xerox, Canon, Lexmark etc.). Just be sure to let us know what type of printer you use. Get in touch.",
                             products:[]
                         },
                          
