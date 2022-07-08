@@ -16,7 +16,7 @@ $(document).ready(function () {
                 case "Chemical Labelling":
                     $("meta[name='keywords']").attr('content', 'example keywords');
                     $("meta[name='description']").attr('content', 'example description');
-                    pageBanner = "img/products/productpage/banner/banner-chemical-labelling.jpg";
+                    pageBanner = "img/products/productpage/banner/Chemical.jpg";
                     pageSubHeading = "Robust labels for hazardous chemicals";
                     detailHtml = `
                         <p>
@@ -28,7 +28,7 @@ $(document).ready(function () {
                 case "Horticulture Tags":
                     $("meta[name='keywords']").attr('content', 'example keywords');
                     $("meta[name='description']").attr('content', 'example description');
-                    pageBanner = "img/products/productpage/banner/banner_horticulture.jpg";
+                    pageBanner = "img/products/productpage/banner/Agriculture.jpg";
                     pageSubHeading = "Tags & Labels for Growers, Nurseries and Garden Centres";
                     detailHtml = `
            
@@ -69,7 +69,7 @@ $(document).ready(function () {
                 case "Tags for Steel and Construction":
                     $("meta[name='keywords']").attr('content', 'example keywords');
                     $("meta[name='description']").attr('content', 'example description');
-                    pageBanner = "img/products/productpage/banner/banner_steel.jpg";
+                    pageBanner = "img/products/productpage/banner/Steel.jpg";
                     pageSubHeading = "Heat Resistant Robust tags for Steel, Metals & Construction";
                     detailHtml = `
                     <p>
