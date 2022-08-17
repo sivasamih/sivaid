@@ -21,10 +21,57 @@ $(document).ready(function () {
                     pageSubHeading = "Robust labels for hazardous chemicals";
                     detailHtml = `
                         <p>
-                        SIVA is a responsible supplier of labels for the manufacturing sectors that require labelling for hazardous products. Our knowledge of the IMDG and GHS regulations for the identification of these products allows us to offer guidance on best fit solutions for your labelling needs. Our manufacturing sites use only the highest quality materials to ensure that you are labelling the packaging in a responsible manner. Printing technology within this sector is rapidly changing as the shift from thermal printers to full-colour solutions rapidly increases. At SIVA, we fully understand the challenges involved and are happy to offer guidance on best fit solutions that will allow your business to run efficiently.
+                          <b>
+                          Siva Group are a responsible supplier of labels into the manufacturing sectors that require labelling for hazardous products. Our knowledge on the IMDG and GHS regulations for the identification of these products allow us to offer guidance on best fit solutions for your labelling needs.
+                          </b>
                         </p>
-                   
-            `;
+                        <p>
+                        Our manufacturing sites use only the highest quality materials to ensure that you are labelling up products and packaging in a responsible manner.
+                        </p>
+                        <p>
+                        Printing technology within this sector is rapidly changing as the shift from thermal printers to full colour solutions rapidly increases. At Siva we fully understand the challenges involved and are happy to offer guidance on best fit solutions, to improve efficiencies within your business. 
+                        </p>
+                        `;
+                     productCategory =[
+                        {
+                            name:"Laser Printable Labels",
+                            desc:"Our BS5609 approved materials for printing through dry toner laser or LED printers come in standard sheet sizes and can be ordered from stock for quick turnaround. The face stock may also accept print from some inkjet technologies.<br/><br/> For a specific size/shape that is not available from our stock our aim is to put down future stock so you can avoid any concerns about lead time issues. We can supply sheets, rolls or fan-folded labels dependent on your needs. We will help plan upcoming deliveries and ensure you are not in a position where you cannot print a label.",
+                            products:[
+                                {
+                                    ref: "CHEMLABEL-1",
+                                    dimensions: "210mm x 296mm",
+                                    format: "1 per A4 Sheet",
+                                    printUsing: "Laser Toner Printer (Inkjet maybe)"
+                                },
+                                {
+                                    ref: "CHEMLABEL-2",
+                                    dimensions: "210mm x 148mm",
+                                    format: "2 per A4 Sheet",
+                                    printUsing: "Laser Toner Printer (Inkjet maybe)"
+                                },
+                                {
+                                    ref: "CHEMLABEL-4",
+                                    dimensions: "105mm x 148mm",
+                                    format: "4 per A4 Sheet",
+                                    printUsing: "Laser Toner Printer (Inkjet maybe)"
+                                },
+                                {
+                                    ref: "CHEMLABEL-2",
+                                    dimensions: "105mm x 74mm",
+                                    format: "2 per A4 Sheet",
+                                    printUsing: "Laser Toner Printer (Inkjet maybe)"
+                                },
+                            ]
+                        },{
+                            name:"Thermal Transfer Printable Labels",
+                            desc:"Lowest print cost still comes from using a thermal transfer printer, some of the popular models include Zebra, Brother, Toshiba, Sato, Cab and TSC.  We have a range of products to suit your packaging and to meet the GHS guidelines on label sizing.  Also finding the best ribbon to overprint the labels is very important, we can help guide and supply you with the best ribbon to ensure that your information stays on the label if stored outside or during the rigors of transportation.",
+                            products:[]
+                        },{
+                            name:"Printer Consumables",
+                            desc:"A good quality label that is thermally overprinted needs to be carefully matched to the best ribbon combination, a good combination will ensure the data and warnings printed remain with the label through its journey. We are happy to recommend and supply the most suitable ribbons for our products to ensure that the data stays with the product.",
+                            products:[]
+                        },
+                     ];
                     break;
                 case "Horticulture Tags":
                     $("meta[name='keywords']").attr('content', 'example keywords');
@@ -32,12 +79,10 @@ $(document).ready(function () {
                     pageBanner = "img/products/productpage/banner/Agriculture.jpg";
                     pageSubHeading = "Tags & Labels for Growers, Nurseries and Garden Centres";
                     detailHtml = `
-           
-            <p>
-            Siva Group manufactures and supplies a range of durable tags and labels to meet the demands of Growers, Nurseries and Garden Centre's. We use only the highest quality materials and are ISO9001:2015 certified across 5 key sites.
-            </p>
-           
-            `;
+                            <p>
+                            Siva Group manufactures and supplies a range of durable tags and labels to meet the demands of Growers, Nurseries and Garden Centre's. We use only the highest quality materials and are ISO9001:2015 certified across 5 key sites.
+                            </p>
+                            `;
                     productCategory = [
                         {
                             "name": "Loop Lock Tags",
@@ -260,58 +305,56 @@ $(document).ready(function () {
                 let productList = "";
                 let productTable="";
                 if (productCategory[p].products) {
-                    for (let product of productCategory[p].products) {
-                        let pListRow = `
-                       <div class="row align-center ">
-                            <div class="col-1">
-                                <span>${product.ref}</span>
+                    try {
+                        for (let product of productCategory[p].products) {
+                            let pListRow = `
+                           <div class="row align-center ">
+                                <div class="col-1">
+                                    <span>${product.ref}</span>
+                                </div>
+                                <div class="col-1">
+                                    <span>${product.dimensions}</span>
+                                </div>
+                                <div class="col-1">
+                                    <span>${product.format}</span>
+                                </div>
+                                <div class="col-1">
+                                    <span>${product.printUsing}</span>
+                                </div>
                             </div>
-                            <div class="col-1">
-                                <span>${product.dimensions}</span>
-                            </div>
-                            <div class="col-1">
-                                <span>${product.format}</span>
-                            </div>
-                            <div class="col-1">
-                                <span>${product.printUsing}</span>
-                            </div>
-                        </div>
-                       `;
-                        productList += pListRow;
-                    }
+                           `;
+                            productList += pListRow;
+                        }
 
+                        if(productCategory[p].products.length>0){
+                            productTable = `
+                            <div style="margin-left:20px;margin-right: 20px;">
+                                <div class="row align-center background-grey-lighten-4">
+                                    <div class="col-1">
+                                    <div class="gap">&nbsp;</div>
+                                    <span class="product-specs-heading">REF </span><br/><br/>
+                                    </div>
+                                    <div class="col-1">
+                                    <div class="gap">&nbsp;</div>
+                                    <span class="product-specs-heading">DIMENSIONS</span><br/><br/>
+                                    </div>
+                                    <div class="col-1">
+                                    <div class="gap">&nbsp;</div> 
+                                    <span class="product-specs-heading">FORMAT</span><br/><br/>
+                                    </div>
+                                    <div class="col-1">
+                                    <div class="gap">&nbsp;</div>
+                                    <span class="product-specs-heading">PRINT USING</span><br/><br/>
+                                    </div>
+                                </div>
+                                ${productList}
+                            </div>
+                        `;
+                        }
 
-                    productTable=`
-                    
-                    <div style="margin-left:20px;margin-right: 20px;">
-                        <div class="row align-center background-grey-lighten-4">
-                            <div class="col-1">
-                            <div class="gap">&nbsp;</div>
-                            <span class="product-specs-heading">REF </span><br/><br/>
-                            </div>
-                            <div class="col-1">
-                            <div class="gap">&nbsp;</div>
-                            <span class="product-specs-heading">DIMENSIONS</span><br/><br/>
-                            </div>
-                            <div class="col-1">
-                            <div class="gap">&nbsp;</div> 
-                            <span class="product-specs-heading">FORMAT</span><br/><br/>
-                            </div>
-                            <div class="col-1">
-                            <div class="gap">&nbsp;</div>
-                            <span class="product-specs-heading">PRINT USING</span><br/><br/>
-                            </div>
-                        </div>
-                        ${productList}
-                    </div>
-                    
-                    `;
-
+                       
+                    } catch (ex) { }
                 }
-
-                
-                
-
 
                 PRODUCT = `
                         <div class='container product-details'>
