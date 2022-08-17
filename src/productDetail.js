@@ -73,9 +73,43 @@ $(document).ready(function () {
                         },
                      ];
                      otherData=`
+                     <br/><br/>
                         <div style="margin-left:20px;margin-right: 20px;">
                             <div class="row align-center">
-                                 <h1>Hi</h1>
+                                <h3><b>Size guide for GHS Labelling:</b></h3>
+                                <div style="width:80% !important">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Container Size</th>
+                                                <th>Min Size of GHS Label</th>
+                                                <th>Size of Pictograms</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Up to 3 litres</td>
+                                                <td>52mm x 74mm if possible</td>
+                                                <td>Not smaller than 10mm x 10mm. If possible, at least 16mm x 16mm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3 litres to 50 litres</td>
+                                                <td>74mm x 105mm</td>
+                                                <td>At least 23mm x 23mm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>50 litres to 500 litres</td>
+                                                <td>105mm x 148mm</td>
+                                                <td>At least 32mm x 32mm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>500 litres and over</td>
+                                                <td>210mm x 148mm</td>
+                                                <td>At least 46mm x 46mm</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                      `;
