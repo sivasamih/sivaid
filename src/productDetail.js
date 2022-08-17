@@ -75,7 +75,7 @@ $(document).ready(function () {
                      otherData=`
                      <br/><br/>
                         <div style="margin-left:20px;margin-right: 20px;">
-                            <div class="row align-center">
+                            <div class="row">
                                 <h3><b>Size guide for GHS Labelling:</b></h3>
                                 <div style="width:80% !important">
                                     <table>
@@ -109,6 +109,11 @@ $(document).ready(function () {
                                             </tr>
                                         </tbody>
                                     </table>
+                                    <p style="color:#169e78 !important;">
+                                        <i>
+                                         **Europe, Singapore & Malaysia guidelines**
+                                        </i>
+                                    </p>
                                 </div>
                             </div>
                         </div>
