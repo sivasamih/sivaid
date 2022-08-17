@@ -3,7 +3,7 @@ $(document).ready(function () {
     
     let productCategory = [];
     let notPresent = false;
-    let breadcrumbTitle = pageSubHeading = pageBanner = detailHtml = catDetail = "";
+    let breadcrumbTitle = pageSubHeading = pageBanner = detailHtml = catDetail = otherData= "";
     try {
         const urlParams = new URLSearchParams(window.location.search);
         const product = urlParams.get('product');
@@ -72,6 +72,13 @@ $(document).ready(function () {
                             products:[]
                         },
                      ];
+                     otherData=`
+                        <div style="margin-left:20px;margin-right: 20px;">
+                            <div class="row align-center">
+                                 <h1>Hi</h1>
+                            </div>
+                        </div>
+                     `;
                     break;
                 case "Horticulture Tags":
                     $("meta[name='keywords']").attr('content', 'example keywords');
@@ -111,6 +118,7 @@ $(document).ready(function () {
                         },
 
                     ];
+                    otherData=``;
                     break;
                 case "Tags for Steel and Construction":
                     $("meta[name='keywords']").attr('content', 'example keywords');
@@ -279,6 +287,7 @@ $(document).ready(function () {
                         }
 
                     ];
+                    otherData=``;
                     break;
                 default:
                     notPresent = true;
@@ -397,6 +406,8 @@ $(document).ready(function () {
                 `;
 
             }
+
+            ProductHtml+=otherData;
 
             $("#ProductHtml").html(ProductHtml);
 
