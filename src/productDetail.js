@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $(".category-products-list").hide();
+    
     let productCategory = [];
     let notPresent = false;
     let breadcrumbTitle = pageSubHeading = pageBanner = detailHtml = catDetail = "";
@@ -41,29 +42,29 @@ $(document).ready(function () {
                         {
                             "name": "Loop Lock Tags",
                             "desc": "Loop Locks, Self-Ties, Tie-Wraps, Wrap Around labels… whatever you call them we make them. Ideal for identifying your plants through their journey from greenhouse to garden or home.",
-                            products:[]
+                            products: []
                         },
                         {
                             "name": "Stick In Tags",
                             "desc": "Stick In's, Pot Pointer's, Pointed-End Labels… again an array of descriptions for a tag that can be inserted into the compost of your pot or tray. They help to identify your plant and share important information to your customer. ",
-                            products:[]
+                            products: []
                         },
                         {
                             "name": "Sticky Labels",
                             "desc": "Labelling pots or trays that are coming into contact with composts, watering and weathering conditions can be challenging. Our self-adhesive “sticky” labels are available in a range of sizes to suit your needs and enable you to add your plant data (passport number, barcodes, descriptions, care instructions, pricing) knowing it will still be legible when the pot arrives with the customer.",
-                            products:[]
+                            products: []
                         },
                         {
                             "name": "Bed Cards",
                             "desc": "A great way to present your stock in a colourful and informative style to help you sell more products. Bed cards can be printed by colour desktop laser printers (OKI, Xerox, Canon, Lexmark etc.). Siva can supply blank media in tag or self-adhesive options to suit your needs.",
-                            products:[]
+                            products: []
                         },
                         {
                             "name": "Customised Tags & Labels",
                             "desc": "For a specific size/shape or a printed tag or label that is not available from our stock, we aim to work with you on a date to suit your needs. We can supply sheets, rolls or fan-folded tags dependent on your requirement. We will help plan upcoming deliveries and ensure you are not in a position where you cannot print a label or tag. <br/><br/> We have a range of stock that is readily available quickly and with a fast turnaround. Our tags are suitable for overprinting by thermal transfer (Toshiba, Zebra, Sato etc.) or desktop laser (OKI, Xerox, Canon, Lexmark etc.). Just be sure to let us know what type of printer you use. Get in touch.",
-                            products:[]
+                            products: []
                         },
-                         
+
                     ];
                     break;
                 case "Tags for Steel and Construction":
@@ -72,10 +73,167 @@ $(document).ready(function () {
                     pageBanner = "img/products/productpage/banner/Steel.jpg";
                     pageSubHeading = "Heat Resistant Robust tags for Steel, Metals & Construction";
                     detailHtml = `
-                    <p>
-                    Siva Group has developed a range of durable tags and labels to meet the demands of the Steel, Metals and Construction industries. As we understand the demands placed on labelling in these heavy industries, we aim to match the tag or label to best suit your product or packaging needs. Our manufacturing sites use only the highest quality materials, we are ISO9001:2015 certified across 4 key sites. Our team has been working in these markets for over 25 years.
-                    </p>
-            `;
+                            <p>
+                                <b>
+                                Siva Group have developed a range of durable tags and labels to meet the demands of the Steel, Metals and Construction industries. We understand the demands placed on labelling in these heavy industries, we aim to match the tag or label to best suit your product, process, or packaging needs.
+                                </b>
+                            </p>
+                            <p>
+                              Our manufacturing sites use only the highest quality materials, we are ISO9001:2015 certified across 4 key sites. Our team have been working in these markets for over 25 years.
+                            </p>
+                    `;
+                    productCategory = [
+                        {
+                            name: "RUGGED TAGS - Tough Tags for heavy industry",
+                            desc: "Our SIVA-100T is a highly durable and weather resistant HDPE tag. Designed to carry your variable data and to stay with your product whist sitting in stock, then through its journey to your client. Available in different shapes and formats, can be attached with a self-tie loop, a punched hole or with banding slots for strapping. Find more info about SIVA-100T tags download the spec sheet here.",
+                            products: [
+                                {
+                                    ref: "ROLLTAG-1",
+                                    dimensions: "100mm x 152mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                },
+                                {
+                                    ref: "ROLLTAG-2",
+                                    dimensions: "100mm x 101.6mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                },
+                                {
+                                    ref: "ROLLTAG-3",
+                                    dimensions: "76mm x 127mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                },
+                                {
+                                    ref: "ROLLTAG-4",
+                                    dimensions: "90mm x 127mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                }
+                            ]
+                        },
+                        {
+                            name:"SIVA-200T HOT TAGS - Heat resistant tags for up to 240c",
+                            desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. HOT TAG ‘SIVA-200T’ is ideal for products like Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes.  Where most tags begin to fail at 80c the SIVA-200T tag can be used up to temperatures approaching 240c. <br/><br/> For more info see our spec sheet for SIVA-200T",
+                            products:[
+                                {
+                                    ref: "HT-200T-1",
+                                    dimensions: "100mm x 152mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                },{
+                                    ref: "HT-200T-2",
+                                    dimensions: "100mm x 101.6mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                },{
+                                    ref: "HT-200T-3",
+                                    dimensions: "76mm x 127mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                },{
+                                    ref: "HT-200T-4",
+                                    dimensions: "90mm x 127mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                },
+                            ],
+                        },
+                        {
+                            name:"SIVA-300T HOT TAGS - Heat resistant tags up to 300c",
+                            desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. HOT TAG ‘SIVA-300T’ is a tag ideal for products like Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes.  Its triple layered make up allows it to resist temperatures around 300c and slight above dependent on positioning.<br/><br/> For more info see our spec sheet for SIVA-300T",
+                            products:[
+                                {
+                                    ref: "HT-300T-1",
+                                    dimensions: "100mm x 152mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                },{
+                                    ref: "HT-300T-2",
+                                    dimensions: "100mm x 101.6mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                },{
+                                    ref: "HT-300T-3",
+                                    dimensions: "76mm x 127mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                },{
+                                    ref: "HT-300T-4",
+                                    dimensions: "90mm x 127mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                },
+                            ],
+                        },
+                        {
+                            name:"SIVA-500T HOT TAGS - Heat resistant tags for temperatures up to 550c",
+                            desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. Our highest performer is the ‘SIVA-500T’, ideal for products like Blooms, Billets, Slabs, Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes.  Its Polyimide properties with specialist coating allows it to resist temperatures up to 550c, subject to positioning and cooling profile of the steel/metal.<br/><br/>For more info see our spec sheet for SIVA-500T ",
+                            products:[
+                                {
+                                    ref: "HT-500T-1",
+                                    dimensions: "100mm x 152mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                },{
+                                    ref: "HT-500T-2",
+                                    dimensions: "100mm x 101.6mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                },{
+                                    ref: "HT-500T-3",
+                                    dimensions: "76mm x 127mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                },{
+                                    ref: "HT-500T-4",
+                                    dimensions: "90mm x 127mm",
+                                    format: "Rolls of 500, 76mm Core",
+                                    printUsing: "Thermal Transfer Printer"
+                                },
+                            ],
+                        },
+                        {
+                            name:"Laser printable tags",
+                            desc:"Popular in distribution facilities are laser printable tags supplied on sheets. These are usually supplied plain or printed with a logo (or CARES details) on reverse. Printable through desktop laser printers such as Lexmark, HP, Canon, OKI, Brother & Sharp. Toner based inks on our temperature resistant polyester is a good combination for durable tagging of your products. We hold the main stock sizes of 4 per sheet, 5 per sheet and 8 per sheet in stock ready for you to call off.<br/><br/>For more info about our SIVA-LT range here.",
+                            products:[
+                                {
+                                    ref: "SIVA-LT4",
+                                    dimensions: "210mm x 74mm (40mm tab)",
+                                    format: "4/Sheet, Packs of 250 Sheets",
+                                    printUsing: "Laser - Toner"
+                                },{
+                                    ref: "SIVA-LT5",
+                                    dimensions: "210mm x 59mm (80mm tab)",
+                                    format: "5/Sheet, Packs of 250 Sheets",
+                                    printUsing: "Laser - Toner"
+                                },{
+                                    ref: "SIVA-LT8",
+                                    dimensions: "105mm x 74mm (no tab)",
+                                    format: "8/Sheet, Packs of 250 Sheets",
+                                    printUsing: "Laser - Toner"
+                                },
+                            ],
+                        },
+                        {
+                            name:"Durable Self-Adhesive Labels",
+                            desc:"Labelling products that need to withstand harsh conditions or just external weathering can be difficult. We can guide you to the right solution for your products, with various adhesives to suit different conditions. Labelling hot or cold products is possible with our range of self-adhesive labels. <br/>br/> We are currently developing a range of substrates and adhesives suitable for different surfaces or relevant to heat resistance. Please get in touch to explain your needs so we can guide you.",
+                        },
+                        {
+                            name:"Customized Tags & Labels",
+                            desc:"For a specific size/shape or a printed tag or label that is not available from our stock we can manufacture any shape or size within the scope of our presses. We can supply sheets, rolls or fan-folded tags dependent on your requirement. We can supply plain or add print and logos as required. We will help plan upcoming deliveries carefully and ensure you are not in a position where you cannot print a label or tag.",
+                        },
+                        {
+                            name:"Tag Attachments",
+                            desc:"When tagging product there is a host of methods for attaching, including clips, stud welding or nailing to product. We can supply attachments suitable for your application.",
+                        },
+                        {
+                            name:"Printer Consumables",
+                            desc:"A good tag or label that is thermally overprinted needs to be carefully matched to the best ribbon combination that can also withstand the conditions your product goes through. We are happy to recommend and supply the most suitable ribbons for our products to ensure that the data stays with the product.",
+                        }
+
+                    ];
                     break;
                 default:
                     notPresent = true;
@@ -95,9 +253,66 @@ $(document).ready(function () {
             $("#pageSubHeading").html(pageSubHeading);
             $("#detailHtml").html(detailHtml);
 
-            ProductHtml= "";
+            ProductHtml = "";
             for (let p = 0; p < productCategory.length; p++) {
                 let PRODUCT = "";
+
+                let productList = "";
+                let productTable="";
+                if (productCategory[p].products) {
+                    for (let product of productCategory[p].products) {
+                        let pListRow = `
+                       <div class="row align-center ">
+                            <div class="col-1">
+                                <span>${product.ref}</span>
+                            </div>
+                            <div class="col-1">
+                                <span>${product.dimensions}</span>
+                            </div>
+                            <div class="col-1">
+                                <span>${product.format}</span>
+                            </div>
+                            <div class="col-1">
+                                <span>${product.printUsing}</span>
+                            </div>
+                        </div>
+                       `;
+                        productList += pListRow;
+                    }
+
+
+                    productTable=`
+                    
+                    <div style="margin-left:20px;margin-right: 20px;">
+                        <div class="row align-center background-grey-lighten-4">
+                            <div class="col-1">
+                            <div class="gap">&nbsp;</div>
+                            <span class="product-specs-heading">REF </span><br/><br/>
+                            </div>
+                            <div class="col-1">
+                            <div class="gap">&nbsp;</div>
+                            <span class="product-specs-heading">DIMENSIONS</span><br/><br/>
+                            </div>
+                            <div class="col-1">
+                            <div class="gap">&nbsp;</div> 
+                            <span class="product-specs-heading">FORMAT</span><br/><br/>
+                            </div>
+                            <div class="col-1">
+                            <div class="gap">&nbsp;</div>
+                            <span class="product-specs-heading">PRINT USING</span><br/><br/>
+                            </div>
+                        </div>
+                        ${productList}
+                    </div>
+                    
+                    `;
+
+                }
+
+                
+                
+
+
                 PRODUCT = `
                         <div class='container product-details'>
                             <div class='card'>
@@ -113,42 +328,12 @@ $(document).ready(function () {
                                         <p>
                                             ${productCategory[p].desc}
                                         </p>
-                                        <p>
-                                            <a class="blue-para-hover-green" href="#">Download datasheet</a>
-                                        </p>
                                         </div>
                                         </div>
                                     </div>
                                     </div>
                                     <div class="gap">&nbsp;</div>
-                                    <div style="margin-left:20px;margin-right: 20px;">
-                                    <div class="row align-center background-grey-lighten-4">
-                                        <div class="col-1">
-                                        <div class="gap">&nbsp;</div>
-                                        <span class="product-specs-heading">Type </span><br/><br/>
-                                        <span>info</span>
-                                        <div class="gap">&nbsp;</div>
-                                        </div>
-                                        <div class="col-1">
-                                        <div class="gap">&nbsp;</div>
-                                        <span class="product-specs-heading">Dimensions</span><br/><br/>
-                                        <span>info</span>
-                                        <div class="gap">&nbsp;</div>
-                                        </div>
-                                        <div class="col-1">
-                                        <div class="gap">&nbsp;</div> 
-                                        <span class="product-specs-heading">Sheet Size </span><br/><br/>
-                                        <span>info</span>
-                                        <div class="gap">&nbsp;</div>
-                                        </div>
-                                        <div class="col-1">
-                                        <div class="gap">&nbsp;</div>
-                                        <span class="product-specs-heading">Read Range </span><br/><br/>
-                                        <span>info</span>
-                                        <div class="gap">&nbsp;</div>
-                                        </div>
-                                    </div>
-                                    </div>
+                                     ${productTable}
                                 </div>
                                 </div>
                             </div>
@@ -167,7 +352,7 @@ $(document).ready(function () {
                 </div>
                
                 `;
-               
+
             }
 
             $("#ProductHtml").html(ProductHtml);
@@ -180,7 +365,7 @@ $(document).ready(function () {
         }
 
         $("#categoryDiv").html(catDetail);
-
+        $(".category-products-list").hide();
 
 
         $(".category-title-div").click(function () {
