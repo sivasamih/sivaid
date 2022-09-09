@@ -17,7 +17,7 @@ $(document).ready(function () {
                 case "Chemical Labelling":
                     $("meta[name='keywords']").attr('content', 'example keywords');
                     $("meta[name='description']").attr('content', 'example description');
-                    pageBanner = "img/products/productpage/banner/Chemical.jpg";
+                    pageBanner = "img/products/productpage/banner/Chemical1.jpg";
                     pageSubHeading = "Robust labels for hazardous chemicals";
                     detailHtml = `
                         <p>
@@ -162,7 +162,7 @@ $(document).ready(function () {
                 case "Tags for Steel and Construction":
                     $("meta[name='keywords']").attr('content', 'example keywords');
                     $("meta[name='description']").attr('content', 'example description');
-                    pageBanner = "img/products/productpage/banner/Steel.jpg";
+                    pageBanner = "img/products/productpage/banner/Steel1.jpg";
                     pageSubHeading = "Heat Resistant Robust tags for Steel, Metals & Construction";
                     detailHtml = `
                             <p>
