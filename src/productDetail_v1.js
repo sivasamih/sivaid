@@ -20,15 +20,15 @@ $(document).ready(function () {
                     pageBanner = "img/products/productpage/banner/Chemical1.jpg";
                     pageSubHeading = "Robust labels for hazardous chemicals";
                     detailHtml = `
-                        <p>
+                        <p style='text-align:justify !important'>
                           <b>
                           Siva Group are a responsible supplier of labels into the manufacturing sectors that require labelling for hazardous products. Our knowledge on the IMDG and GHS regulations for the identification of these products allow us to offer guidance on best fit solutions for your labelling needs.
                           </b>
                         </p>
-                        <p>
+                        <p style='text-align:justify !important'>
                         Our manufacturing sites use only the highest quality materials to ensure that you are labelling up products and packaging in a responsible manner.
                         </p>
-                        <p>
+                        <p style='text-align:justify !important'>
                         Printing technology within this sector is rapidly changing as the shift from thermal printers to full colour solutions rapidly increases. At Siva we fully understand the challenges involved and are happy to offer guidance on best fit solutions, to improve efficiencies within your business. 
                         </p>
                         `;
@@ -125,7 +125,7 @@ $(document).ready(function () {
                     pageBanner = "img/products/productpage/banner/Agriculture.jpg";
                     pageSubHeading = "Tags & Labels for Growers, Nurseries and Garden Centres";
                     detailHtml = `
-                            <p>
+                            <p style='text-align:justify !important'>
                             Siva Group manufactures and supplies a range of durable tags and labels to meet the demands of Growers, Nurseries and Garden Centre's. We use only the highest quality materials and are ISO9001:2015 certified across 5 key sites.
                             </p>
                             `;
@@ -165,12 +165,12 @@ $(document).ready(function () {
                     pageBanner = "img/products/productpage/banner/Steel1.jpg";
                     pageSubHeading = "Heat Resistant Robust tags for Steel, Metals & Construction";
                     detailHtml = `
-                            <p>
+                            <p style='text-align:justify !important'>
                                 <b>
                                 Siva Group have developed a range of durable tags and labels to meet the demands of the Steel, Metals and Construction industries. We understand the demands placed on labelling in these heavy industries, we aim to match the tag or label to best suit your product, process, or packaging needs.
                                 </b>
                             </p>
-                            <p>
+                            <p style='text-align:justify !important'>
                               Our manufacturing sites use only the highest quality materials, we are ISO9001:2015 certified across 4 key sites. Our team have been working in these markets for over 25 years.
                             </p>
                     `;
@@ -356,9 +356,13 @@ $(document).ready(function () {
                     try {
                         for (let product of productCategory[p].products) {
                             let pListRow = `
-                           <div class="row align-center ">
+                           <div class="row align-center plr-height">
                                 <div class="col-1">
-                                    <span>${product.ref}</span>
+                                  <a href="">
+                                  <img src="../img/datasheet-icon.png" style="height:20px;width:20px"/>
+                                  <span>${product.ref}</span>
+                                  </a>  
+                                  
                                 </div>
                                 <div class="col-1">
                                     <span>${product.dimensions}</span>
@@ -377,25 +381,29 @@ $(document).ready(function () {
                         if(productCategory[p].products.length>0){
                             productTable = `
                             <div style="margin-left:20px;margin-right: 20px;">
-                                <div class="row align-center background-grey-lighten-4">
+                                <div class="row align-center background-grey-lighten-2">
                                     <div class="col-1">
-                                    <div class="gap">&nbsp;</div>
-                                    <span class="product-specs-heading">REF </span><br/><br/>
+                                    <div class="gap-1">&nbsp;</div>
+                                    <span class="product-specs-heading">REF </span>
+                                    <div class="gap-1">&nbsp;</div>
                                     </div>
                                     <div class="col-1">
-                                    <div class="gap">&nbsp;</div>
-                                    <span class="product-specs-heading">DIMENSIONS</span><br/><br/>
+                                    <div class="gap-1">&nbsp;</div>
+                                    <span class="product-specs-heading">DIMENSIONS</span>
                                     </div>
                                     <div class="col-1">
-                                    <div class="gap">&nbsp;</div> 
-                                    <span class="product-specs-heading">FORMAT</span><br/><br/>
+                                    <div class="gap-1">&nbsp;</div>
+                                    <span class="product-specs-heading">FORMAT</span>
                                     </div>
                                     <div class="col-1">
-                                    <div class="gap">&nbsp;</div>
-                                    <span class="product-specs-heading">PRINT USING</span><br/><br/>
+                                    <div class="gap-1">&nbsp;</div>
+                                    <span class="product-specs-heading">PRINT USING</span>
                                     </div>
                                 </div>
+                                <div style="margin-top:-20px !important">
                                 ${productList}
+                                </div>
+                               
                             </div>
                         `;
                         }
@@ -416,7 +424,7 @@ $(document).ready(function () {
                                         </div>
                                         <div class="two_third">
                                         <div style="margin-left: 20px;"> 
-                                        <p>
+                                        <p style='text-align:justify !important'>
                                             ${productCategory[p].desc}
                                         </p>
                                         </div>

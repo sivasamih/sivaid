@@ -64,6 +64,10 @@
     height: 20px !important;
 }
 
+.gap-1{
+    height: 10px !important;
+}
+
 .card {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
@@ -373,6 +377,15 @@ th {
 
 .background-grey-lighten-4{
     background-color: #fafafa !important;
+}
+
+.background-grey-lighten-2{
+    background-color: #e0e0e0 !important;
+}
+
+.plr-height{
+    min-height: 10px !important;
+    max-height: 10px !important;
 }
 
 @media screen and (max-width: 600px) {
