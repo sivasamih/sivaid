@@ -139,6 +139,12 @@ thead {
     background-color: #fff !important;
 }
 
+.btn-blue {
+    border-radius: 50px;
+    background-color: #0072bc !important;
+    
+}
+
 .blue-para-hover-green{
     font-weight: bold !important;
     color:#0072bc !important;
@@ -151,6 +157,15 @@ thead {
     text-decoration: underline;
     letter-spacing: 1px;
 }
+
+.black-para-hover-green-white {
+    font-weight: bold !important;
+    color: #000 !important;
+}
+.black-para-hover-green-white:hover {
+    font-weight: bold !important;
+     color: #39b54a !important;
+ }
 
  .black-para-hover-green {
      font-weight: bold !important;
