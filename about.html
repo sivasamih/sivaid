@@ -19,7 +19,7 @@
   <style>
     @font-face {
       font-family: Abadi;
-      src: url(Abadi-MT-Std-Extra-Light-It.otf);
+      src: url(bahnschrift.ttf);
     }
 
   .abadi-font{
@@ -37,6 +37,13 @@
 
     .font {
       font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif !important;
+    }
+
+    .demark-gap{
+      height: 5px !important;
+      background-color: #9e9e9e !important;
+      width: 20%;
+      margin-left: 40%;
     }
 
     .gap {
@@ -65,11 +72,11 @@
 
     .page-sub-heading {
       color: #1e4188 !important;
-      font-size: 2.4rem !important;
+      font-size: 2.9rem !important;
     }
 
     .img-1 {
-      height: 450px !important;
+      /* height: 450px !important; */
       width: 100% !important
     }
 
@@ -86,6 +93,18 @@
       box-shadow: inset 0 0 0 2000px rgba(29, 29, 29, 0.6);
       color: #fff;
     }
+
+
+    .row-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 5px;
+  row-gap: 1em;
+}
+
+.icons-img{
+  height: 10em !important;
+}
   </style>
 </head>
 
@@ -119,16 +138,27 @@
         industries or challenging environments. We operate globally to deliver high-quality products at competitive
         rates.
       </h1>
+      
+      <div class="gap"></div>
       <div class="gap"></div>
 
+      <div class="row-wrapper ">
+        <div><img class="icons-img" src="img/Certified.png"/></div>
+        <div><img class="icons-img" src="img/Employees.png"/></div>
+        <div><img class="icons-img" src="img/Export.png"/></div>
+        <div><img class="icons-img" src="img/Expirence.png"/></div>
+        <div><img class="icons-img" src="img/SatisfiedCust.png"/></div>
+      </div>
+      
+      <div class="gap"></div>
+      <div class="gap"></div>
       <div class="row3">
         <h1 class="align-center page-sub-heading abadi-font"><b>PRODUCTION & DISTRIBUTION</b></h1><br />
       </div>
       <div class="row3">
-        <img class="img-1" src="img/Production-Distribution-siva-map.jpg" alt=""></br></br>
+        <img class="img-1" src="img/siva-map-production.jpg" alt=""></br></br>
       </div>
-
-      <div class="gap"></div>
+      
       <div class="gap"></div>
       <div class="row3">
         <h1 class="align-center page-sub-heading abadi-font"><b>THE TEAM</b></h1><br />
@@ -179,7 +209,6 @@
         </div>
       </div>
 
-
       <div class="gap"></div>
       <div class="row3">
         <h1 class="align-center page-sub-heading abadi-font"><b>PRODUCTION</b></h1><br />
@@ -228,7 +257,6 @@
           <img src="img/kandla-factory.png" class="img-p" alt="Kandla, INDIA">
         </div>
       </div>
-
 
       <div class="gap"></div>
 

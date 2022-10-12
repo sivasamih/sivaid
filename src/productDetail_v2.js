@@ -31,11 +31,12 @@ $(document).ready(function () {
                         <p style='text-align:justify !important'>
                         Printing technology within this sector is rapidly changing as the shift from thermal printers to full colour solutions rapidly increases. At Siva we fully understand the challenges involved and are happy to offer guidance on best fit solutions, to improve efficiencies within your business. 
                         </p>
-                        `;
+                        `;  
                      productCategory =[
                         {
                             name:"Laser Printable Labels",
                             desc:"Our BS5609 approved materials for printing through dry toner laser or LED printers come in standard sheet sizes and can be ordered from stock for quick turnaround. The face stock may also accept print from some inkjet technologies.<br/><br/> For a specific size/shape that is not available from our stock our aim is to put down future stock so you can avoid any concerns about lead time issues. We can supply sheets, rolls or fan-folded labels dependent on your needs. We will help plan upcoming deliveries and ensure you are not in a position where you cannot print a label.",
+                            img:"../img/products/productpage/imgs/Laser-Printable-Labels-01.jpg",
                             products:[
                                 {
                                     ref: "CHEMLABEL-1",
@@ -65,10 +66,12 @@ $(document).ready(function () {
                         },{
                             name:"Thermal Transfer Printable Labels",
                             desc:"Lowest print cost still comes from using a thermal transfer printer, some of the popular models include Zebra, Brother, Toshiba, Sato, Cab and TSC.  We have a range of products to suit your packaging and to meet the GHS guidelines on label sizing.  Also finding the best ribbon to overprint the labels is very important, we can help guide and supply you with the best ribbon to ensure that your information stays on the label if stored outside or during the rigors of transportation.",
+                            img:"../img/products/productpage/imgs/Thermal-Transfer-Printable-Labels-01.jpg",
                             products:[]
                         },{
                             name:"Printer Consumables",
                             desc:"A good quality label that is thermally overprinted needs to be carefully matched to the best ribbon combination, a good combination will ensure the data and warnings printed remain with the label through its journey. We are happy to recommend and supply the most suitable ribbons for our products to ensure that the data stays with the product.",
+                            img:"../img/products/productpage/imgs/Printer-Consumables-01.jpg",
                             products:[]
                         },
                      ];
@@ -133,26 +136,31 @@ $(document).ready(function () {
                         {
                             "name": "Loop Lock Tags",
                             "desc": "Loop Locks, Self-Ties, Tie-Wraps, Wrap Around labels… whatever you call them we make them. Ideal for identifying your plants through their journey from greenhouse to garden or home.",
+                            img:"",
                             products: []
                         },
                         {
                             "name": "Stick In Tags",
                             "desc": "Stick In's, Pot Pointer's, Pointed-End Labels… again an array of descriptions for a tag that can be inserted into the compost of your pot or tray. They help to identify your plant and share important information to your customer. ",
+                            img:"",
                             products: []
                         },
                         {
                             "name": "Sticky Labels",
                             "desc": "Labelling pots or trays that are coming into contact with composts, watering and weathering conditions can be challenging. Our self-adhesive “sticky” labels are available in a range of sizes to suit your needs and enable you to add your plant data (passport number, barcodes, descriptions, care instructions, pricing) knowing it will still be legible when the pot arrives with the customer.",
+                            img:"",
                             products: []
                         },
                         {
                             "name": "Bed Cards",
                             "desc": "A great way to present your stock in a colourful and informative style to help you sell more products. Bed cards can be printed by colour desktop laser printers (OKI, Xerox, Canon, Lexmark etc.). Siva can supply blank media in tag or self-adhesive options to suit your needs.",
+                            img:"",
                             products: []
                         },
                         {
                             "name": "Customised Tags & Labels",
                             "desc": "For a specific size/shape or a printed tag or label that is not available from our stock, we aim to work with you on a date to suit your needs. We can supply sheets, rolls or fan-folded tags dependent on your requirement. We will help plan upcoming deliveries and ensure you are not in a position where you cannot print a label or tag. <br/><br/> We have a range of stock that is readily available quickly and with a fast turnaround. Our tags are suitable for overprinting by thermal transfer (Toshiba, Zebra, Sato etc.) or desktop laser (OKI, Xerox, Canon, Lexmark etc.). Just be sure to let us know what type of printer you use. Get in touch.",
+                            img:"",
                             products: []
                         },
 
@@ -178,6 +186,7 @@ $(document).ready(function () {
                         {
                             name: "RUGGED TAGS - Tough Tags for heavy industry",
                             desc: "Our SIVA-100T is a highly durable and weather resistant HDPE tag. Designed to carry your variable data and to stay with your product whist sitting in stock, then through its journey to your client. Available in different shapes and formats, can be attached with a self-tie loop, a punched hole or with banding slots for strapping. Find more info about SIVA-100T tags download the spec sheet here.",
+                            img:"../img/products/productpage/imgs/RUGGED-TAGS-01.jpg",
                             products: [
                                 {
                                     ref: "ROLLTAG-1",
@@ -208,6 +217,7 @@ $(document).ready(function () {
                         {
                             name:"SIVA-200T HOT TAGS - Heat resistant tags for up to 240c",
                             desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. HOT TAG ‘SIVA-200T’ is ideal for products like Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes.  Where most tags begin to fail at 80c the SIVA-200T tag can be used up to temperatures approaching 240c. <br/><br/> For more info see our spec sheet for SIVA-200T",
+                            img:"../img/products/productpage/imgs/200T-HOT-TAGS-01.jpg",
                             products:[
                                 {
                                     ref: "HT-200T-1",
@@ -235,6 +245,7 @@ $(document).ready(function () {
                         {
                             name:"SIVA-300T HOT TAGS - Heat resistant tags up to 300c",
                             desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. HOT TAG ‘SIVA-300T’ is a tag ideal for products like Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes.  Its triple layered make up allows it to resist temperatures around 300c and slight above dependent on positioning.<br/><br/> For more info see our spec sheet for SIVA-300T",
+                            img:"../img/products/productpage/imgs/300T-HOT-TAGS-01.jpg",
                             products:[
                                 {
                                     ref: "HT-300T-1",
@@ -262,6 +273,7 @@ $(document).ready(function () {
                         {
                             name:"SIVA-500T HOT TAGS - Heat resistant tags for temperatures up to 550c",
                             desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. Our highest performer is the ‘SIVA-500T’, ideal for products like Blooms, Billets, Slabs, Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes.  Its Polyimide properties with specialist coating allows it to resist temperatures up to 550c, subject to positioning and cooling profile of the steel/metal.<br/><br/>For more info see our spec sheet for SIVA-500T ",
+                            img:"../img/products/productpage/imgs/500T-HOT-TAGS-01.jpg",
                             products:[
                                 {
                                     ref: "HT-500T-1",
@@ -289,6 +301,7 @@ $(document).ready(function () {
                         {
                             name:"Laser printable tags",
                             desc:"Popular in distribution facilities are laser printable tags supplied on sheets. These are usually supplied plain or printed with a logo (or CARES details) on reverse. Printable through desktop laser printers such as Lexmark, HP, Canon, OKI, Brother & Sharp. Toner based inks on our temperature resistant polyester is a good combination for durable tagging of your products. We hold the main stock sizes of 4 per sheet, 5 per sheet and 8 per sheet in stock ready for you to call off.<br/><br/>For more info about our SIVA-LT range here.",
+                            img:"../img/products/productpage/imgs/supply-of-steel-01.jpg",
                             products:[
                                 {
                                     ref: "SIVA-LT4",
@@ -311,18 +324,22 @@ $(document).ready(function () {
                         {
                             name:"Durable Self-Adhesive Labels",
                             desc:"Labelling products that need to withstand harsh conditions or just external weathering can be difficult. We can guide you to the right solution for your products, with various adhesives to suit different conditions. Labelling hot or cold products is possible with our range of self-adhesive labels. <br/>br/> We are currently developing a range of substrates and adhesives suitable for different surfaces or relevant to heat resistance. Please get in touch to explain your needs so we can guide you.",
+                            img:"../img/products/productpage/imgs/steel-coil-01.jpg",
                         },
                         {
                             name:"Customized Tags & Labels",
                             desc:"For a specific size/shape or a printed tag or label that is not available from our stock we can manufacture any shape or size within the scope of our presses. We can supply sheets, rolls or fan-folded tags dependent on your requirement. We can supply plain or add print and logos as required. We will help plan upcoming deliveries carefully and ensure you are not in a position where you cannot print a label or tag.",
+                            img:"../img/products/productpage/imgs/blank-img.jpg",
                         },
                         {
                             name:"Tag Attachments",
                             desc:"When tagging product there is a host of methods for attaching, including clips, stud welding or nailing to product. We can supply attachments suitable for your application.",
+                            img:"../img/products/productpage/imgs/Tag-Attachments-01.jpg",
                         },
                         {
                             name:"Printer Consumables",
                             desc:"A good tag or label that is thermally overprinted needs to be carefully matched to the best ribbon combination that can also withstand the conditions your product goes through. We are happy to recommend and supply the most suitable ribbons for our products to ensure that the data stays with the product.",
+                            img:"../img/products/productpage/imgs/Printer-Consumables-01.jpg",
                         }
 
                     ];
@@ -420,7 +437,7 @@ $(document).ready(function () {
                                     <div style="margin-left:20px;margin-right: 20px;">
                                     <div class="group demo">
                                         <div class="one_third first">
-                                        <img class="left-product-image" src="img/products/productpage/Steel.jpg"  alt="">
+                                        <img class="left-product-image" src=${productCategory[p].img}  alt="">
                                         </div>
                                         <div class="two_third">
                                         <div style="margin-left: 20px;"> 
