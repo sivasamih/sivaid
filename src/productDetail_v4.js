@@ -17,7 +17,7 @@ $(document).ready(function () {
                 case "Chemical Labelling":
                     $("meta[name='keywords']").attr('content', 'example keywords');
                     $("meta[name='description']").attr('content', 'example description');
-                    pageBanner = "img/products/productpage/banner/Chemical1.jpg";
+                    pageBanner = "img/products/productpage/banner/chemical-banner.jpg";
                     pageSubHeading = "Robust labels for hazardous chemicals";
                     detailHtml = `
                         <p style='text-align:justify !important'>
@@ -117,6 +117,11 @@ $(document).ready(function () {
                                          **Europe, Singapore & Malaysia guidelines**
                                         </i>
                                     </p>
+                                    <p style="">
+                                    <img 
+                                    src="../img/products/productpage/imgs/GHS-Labelling.jpg" alt="">
+                                    </p>
+
                                 </div>
                             </div>
                         </div>
