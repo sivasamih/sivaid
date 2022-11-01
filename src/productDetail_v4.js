@@ -180,39 +180,39 @@ $(document).ready(function () {
                     detailHtml = `
                             <p style='text-align:justify !important'>
                                 <b>
-                                Siva Group have developed a range of durable tags and labels to meet the demands of the Steel, Metals and Construction industries. We understand the demands placed on labelling in these heavy industries, we aim to match the tag or label to best suit your product, process, or packaging needs.
+                                SIVA has developed a range of durable tags and labels to meet the demands of the Steel, Metals and Construction industries. We understand the demands placed on labelling in these heavy industries and we aim to match the tag or label to best suit your product, process, or packaging needs.
                                 </b>
                             </p>
                             <p style='text-align:justify !important'>
-                              Our manufacturing sites use only the highest quality materials, we are ISO9001:2015 certified across 4 key sites. Our team have been working in these markets for over 25 years.
+                            Our manufacturing sites use only the highest quality materials, we are ISO9001:2015 certified across 4 key sites. Our team have been working in these markets for over 25 years.
                             </p>
                     `;
                     productCategory = [
                         {
-                            name: "RUGGED TAGS - Tough Tags for heavy industry",
+                            name: "SIVA-100T - Heavy Duty Industrial Tags",
                             desc: "Our SIVA-100T is a highly durable and weather resistant HDPE tag. Designed to carry your variable data and to stay with your product whist sitting in stock, then through its journey to your client. Available in different shapes and formats, can be attached with a self-tie loop, a punched hole or with banding slots for strapping. Find more info about SIVA-100T tags download the spec sheet here.",
                             img:"../img/products/productpage/imgs/RUGGED-TAGS-01.jpg",
                             products: [
                                 {
-                                    ref: "ROLLTAG-1",
+                                    ref: "100T-1",
                                     dimensions: "100mm x 152mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
                                 },
                                 {
-                                    ref: "ROLLTAG-2",
+                                    ref: "100T-2",
                                     dimensions: "100mm x 101.6mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
                                 },
                                 {
-                                    ref: "ROLLTAG-3",
+                                    ref: "100T-3",
                                     dimensions: "76mm x 127mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
                                 },
                                 {
-                                    ref: "ROLLTAG-4",
+                                    ref: "100T-4",
                                     dimensions: "90mm x 127mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
@@ -220,27 +220,27 @@ $(document).ready(function () {
                             ]
                         },
                         {
-                            name:"SIVA-200T HOT TAGS - Heat resistant tags for up to 240c",
+                            name:"SIVA-HT200T -  High Temperature resistant Heavy Duty Industrial Tags",
                             desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. HOT TAG ‘SIVA-200T’ is ideal for products like Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes.  Where most tags begin to fail at 80c the SIVA-200T tag can be used up to temperatures approaching 240c. <br/><br/> For more info see our spec sheet for SIVA-200T",
                             img:"../img/products/productpage/imgs/200T-HOT-TAGS-01.jpg",
                             products:[
                                 {
-                                    ref: "HT-200T-1",
+                                    ref: "HT.200T-1",
                                     dimensions: "100mm x 152mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
                                 },{
-                                    ref: "HT-200T-2",
+                                    ref: "HT.200T-2",
                                     dimensions: "100mm x 101.6mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
                                 },{
-                                    ref: "HT-200T-3",
+                                    ref: "HT.200T-3",
                                     dimensions: "76mm x 127mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
                                 },{
-                                    ref: "HT-200T-4",
+                                    ref: "HT.200T-4",
                                     dimensions: "90mm x 127mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
@@ -248,27 +248,27 @@ $(document).ready(function () {
                             ],
                         },
                         {
-                            name:"SIVA-300T HOT TAGS - Heat resistant tags up to 300c",
+                            name:"SIVA-HT300T -  Durable Heavy Duty Industrial Tags",
                             desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. HOT TAG ‘SIVA-300T’ is a tag ideal for products like Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes.  Its triple layered make up allows it to resist temperatures around 300c and slight above dependent on positioning.<br/><br/> For more info see our spec sheet for SIVA-300T",
                             img:"../img/products/productpage/imgs/300T-HOT-TAGS-01.jpg",
                             products:[
                                 {
-                                    ref: "HT-300T-1",
+                                    ref: "HT.300T-1",
                                     dimensions: "100mm x 152mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
                                 },{
-                                    ref: "HT-300T-2",
+                                    ref: "HT.300T-2",
                                     dimensions: "100mm x 101.6mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
                                 },{
-                                    ref: "HT-300T-3",
+                                    ref: "HT.300T-3",
                                     dimensions: "76mm x 127mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
                                 },{
-                                    ref: "HT-300T-4",
+                                    ref: "HT.300T-4",
                                     dimensions: "90mm x 127mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
@@ -276,27 +276,27 @@ $(document).ready(function () {
                             ],
                         },
                         {
-                            name:"SIVA-500T HOT TAGS - Heat resistant tags for temperatures up to 550c",
+                            name:"SIVA-HT500T - High Temperature resistant Heavy Duty Industrial Tags",
                             desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. Our highest performer is the ‘SIVA-500T’, ideal for products like Blooms, Billets, Slabs, Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes.  Its Polyimide properties with specialist coating allows it to resist temperatures up to 550c, subject to positioning and cooling profile of the steel/metal.<br/><br/>For more info see our spec sheet for SIVA-500T ",
                             img:"../img/products/productpage/imgs/500T-HOT-TAGS-01.jpg",
                             products:[
                                 {
-                                    ref: "HT-500T-1",
+                                    ref: "HT.500T-1",
                                     dimensions: "100mm x 152mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
                                 },{
-                                    ref: "HT-500T-2",
+                                    ref: "HT.500T-2",
                                     dimensions: "100mm x 101.6mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
                                 },{
-                                    ref: "HT-500T-3",
+                                    ref: "HT.500T-3",
                                     dimensions: "76mm x 127mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
                                 },{
-                                    ref: "HT-500T-4",
+                                    ref: "HT.500T-4",
                                     dimensions: "90mm x 127mm",
                                     format: "Rolls of 500, 76mm Core",
                                     printUsing: "Thermal Transfer Printer"
@@ -304,22 +304,22 @@ $(document).ready(function () {
                             ],
                         },
                         {
-                            name:"Laser printable tags",
+                            name:"STC-LT4 - Laser printable Heavy Duty Industrial Tags",
                             desc:"Popular in distribution facilities are laser printable tags supplied on sheets. These are usually supplied plain or printed with a logo (or CARES details) on reverse. Printable through desktop laser printers such as Lexmark, HP, Canon, OKI, Brother & Sharp. Toner based inks on our temperature resistant polyester is a good combination for durable tagging of your products. We hold the main stock sizes of 4 per sheet, 5 per sheet and 8 per sheet in stock ready for you to call off.<br/><br/>For more info about our SIVA-LT range here.",
                             img:"../img/products/productpage/imgs/supply-of-steel-01.jpg",
                             products:[
                                 {
-                                    ref: "SIVA-LT4",
+                                    ref: "LT4",
                                     dimensions: "210mm x 74mm (40mm tab)",
                                     format: "4/Sheet, Packs of 250 Sheets",
                                     printUsing: "Laser - Toner"
                                 },{
-                                    ref: "SIVA-LT5",
+                                    ref: "LT5",
                                     dimensions: "210mm x 59mm (80mm tab)",
                                     format: "5/Sheet, Packs of 250 Sheets",
                                     printUsing: "Laser - Toner"
                                 },{
-                                    ref: "SIVA-LT8",
+                                    ref: "LT8",
                                     dimensions: "105mm x 74mm (no tab)",
                                     format: "8/Sheet, Packs of 250 Sheets",
                                     printUsing: "Laser - Toner"
