@@ -220,7 +220,7 @@ $(document).ready(function () {
                             ]
                         },
                         {
-                            name:"SIVA-HT200T -  High Temperature resistant Heavy Duty Industrial Tags",
+                            name:"SIVA-HT200T -  High Temperature Resistant Heavy Duty Industrial Tags",
                             desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. HOT TAG ‘SIVA-200T’ is ideal for products like Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes.  Where most tags begin to fail at 80c the SIVA-200T tag can be used up to temperatures approaching 240c. <br/><br/> For more info see our spec sheet for SIVA-200T",
                             img:"../img/products/productpage/imgs/200T-HOT-TAGS-01.jpg",
                             products:[
@@ -276,7 +276,7 @@ $(document).ready(function () {
                             ],
                         },
                         {
-                            name:"SIVA-HT500T - High Temperature resistant Heavy Duty Industrial Tags",
+                            name:"SIVA-HT500T - High Temperature Resistant Heavy Duty Industrial Tags",
                             desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. Our highest performer is the ‘SIVA-500T’, ideal for products like Blooms, Billets, Slabs, Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes.  Its Polyimide properties with specialist coating allows it to resist temperatures up to 550c, subject to positioning and cooling profile of the steel/metal.<br/><br/>For more info see our spec sheet for SIVA-500T ",
                             img:"../img/products/productpage/imgs/500T-HOT-TAGS-01.jpg",
                             products:[
@@ -304,7 +304,7 @@ $(document).ready(function () {
                             ],
                         },
                         {
-                            name:"STC-LT4 - Laser printable Heavy Duty Industrial Tags",
+                            name:"STC-LT4 - Laser Printable Heavy Duty Industrial Tags",
                             desc:"Popular in distribution facilities are laser printable tags supplied on sheets. These are usually supplied plain or printed with a logo (or CARES details) on reverse. Printable through desktop laser printers such as Lexmark, HP, Canon, OKI, Brother & Sharp. Toner based inks on our temperature resistant polyester is a good combination for durable tagging of your products. We hold the main stock sizes of 4 per sheet, 5 per sheet and 8 per sheet in stock ready for you to call off.<br/><br/>For more info about our SIVA-LT range here.",
                             img:"../img/products/productpage/imgs/supply-of-steel-01.jpg",
                             products:[
@@ -492,13 +492,9 @@ $(document).ready(function () {
 
 
         $(".category-title-div").click(function () {
-            //$(".category-products-list").hide();
             var id = $(this).attr("id");
             //remove all hhighlight class.
-            $("#product_list_" + id).toggle(
-                //function(){ $("#"+id).addClass("category-title-div-clicked");} 
-            );
-
+            $("#product_list_" + id).toggle();
         });
 
 
