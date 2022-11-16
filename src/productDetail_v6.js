@@ -328,7 +328,7 @@ $(document).ready(function () {
                         },
                         {
                             name:"Durable Self-Adhesive Labels",
-                            desc:"Labelling products that need to withstand harsh conditions or just external weathering can be difficult. We can guide you to the right solution for your products, with various adhesives to suit different conditions. Labelling hot or cold products is possible with our range of self-adhesive labels. <br/>br/> We are currently developing a range of substrates and adhesives suitable for different surfaces or relevant to heat resistance. Please get in touch to explain your needs so we can guide you.",
+                            desc:"Labelling products that need to withstand harsh conditions or just external weathering can be difficult. We can guide you to the right solution for your products, with various adhesives to suit different conditions. Labelling hot or cold products is possible with our range of self-adhesive labels. <br/><br/> We are currently developing a range of substrates and adhesives suitable for different surfaces or relevant to heat resistance. Please get in touch to explain your needs so we can guide you.",
                             img:"../img/products/productpage/imgs/steel-coil-01.jpg",
                         },
                         {
