@@ -12,6 +12,39 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
     <link href="layout/styles/custom.flexslider.css" rel="stylesheet" type="text/css" media="all">  
+
+    <style>
+        .mobile-social-display {
+            display: none;
+        }
+        .social-icons {
+            padding-right: 2px !important;
+        }
+        @media screen and (max-width: 750px) {
+            #logo img {
+                margin-left: 9% !important;
+            }
+            .mobile-center-align-text {
+                text-align: center !important;
+            }
+            .mobile-margin {
+                margin-top: -45px !important;
+            }
+            .mobile-social-display {
+                display: block !important;
+            }
+            .desktop-social-display {
+                display: none !important;
+            }
+            .mobile-social-display {
+                display: block !important;
+                margin-left: 5% !important;
+                letter-spacing: 4px !important;
+                text-align: center !important;
+            }
+        }
+    </style>
+
 </head>
 
 <body id="top">
@@ -73,16 +106,17 @@
         </div>
 
         <div class="wrapper coloured bgded overlay"
-            style="background-image:url('images/backgrounds/news and events bg.jpg')">
+            
+            >
             <div class="hoc container clear">
                 <div class="group demo">
-                    <div class="two_third first" style="font-size: 30px;color: #69b637;line-height: 1.25em;">
+                    <div class="two_third first mobile-center-align-text" style="font-size: 30px;color: #FFF;line-height: 1.25em;font-family: sans-serif;">
                         SIVA is a world-class manufacturer of a variety of high standard labels & tags catering from the manufacturing sectors that require labelling for hazardous products to the horticulture sector which needs durable weather-resistant labels helping you identify the product easily
                     </div>
                     <div class="one_third">
                         <div style="height: 15px;"></div>
-                        <h3 style="color: #fff;line-height: 1px;">OUR SERVICE</h3>
-                        <p style="color: #fff;">
+                        <h3 class="mobile-center-align-text" style="color: #fff;line-height: 1px;">OUR SERVICE</h3>
+                        <p class="mobile-center-align-text" style="color: #fff; word-spacing: 2;letter-spacing: 2;font-size: 18px;">
                             On our core products, we hold a base stock ready for quick delivery. Where you need customizations, we work closely with you to schedule on-time deliveries, we plan for the unexpected and always ensure you have labels or tags available for your use.
                         </p>
                     </div>
@@ -92,7 +126,7 @@
 
         <div class="wrapper row3" style="background-color: #F2F4F7;">
             <main class="hoc container clear">
-                <div class="group btmspace-50 demo">
+                <div class="group btmspace-50 demo mobile-center-align-text">
                     <div class="one_third first">
                         <a href="/categorydetail.html?product=Tags for Steel and Construction"><img src="img/homepage/SteelTagging.jpg" alt="Tags for Steel & Construction"></a>
                     </div>
@@ -120,7 +154,7 @@
                 </div>
                 <div class="one_third">
 
-                    <h3 style="font-size: 19px;font-style: normal;font-weight: 700 !important;color: #585858;">SIVA-ID
+                    <h3 style="font-size: 19px;font-style: normal;font-weight: 700 !important;color: #585858;">siva-ID
                         ON YOUTUBE
                     </h3>
 

@@ -378,13 +378,12 @@ $(document).ready(function () {
                     try {
                         for (let product of productCategory[p].products) {
                             let pListRow = `
-                           <div class="row align-center plr-height">
+                           <div class="row align-center">
                                 <div class="col-1">
                                   <a href="">
                                   <img src="../img/datasheet-icon.png" style="height:20px;width:20px"/>
                                   <span>${product.ref}</span>
                                   </a>  
-                                  
                                 </div>
                                 <div class="col-1">
                                     <span>${product.dimensions}</span>
@@ -422,7 +421,7 @@ $(document).ready(function () {
                                     <span class="product-specs-heading">PRINT USING</span>
                                     </div>
                                 </div>
-                                <div style="margin-top:-20px !important">
+                                <div style="margin-top:-20px !important;">
                                 ${productList}
                                 </div>
                                
@@ -445,7 +444,7 @@ $(document).ready(function () {
                                         <img class="left-product-image" src=${productCategory[p].img}  alt="">
                                         </div>
                                         <div class="two_third">
-                                        <div style="margin-left: 20px;"> 
+                                        <div style=""> 
                                         <p style='text-align:justify !important'>
                                             ${productCategory[p].desc}
                                         </p>

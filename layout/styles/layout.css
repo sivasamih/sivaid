@@ -392,7 +392,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#cc0000;}
 
 
 /* Rows */
-.row0{color:#FFFFFF; background-color:#69b637;/* #1E95C8 */}
+.row0{color:#FFFFFF; background-color:#169e78;/* #1E95C8 */}
 .row1{color:#161715; background-color:#FFFFFF;}
 .row2{color:#FFFFFF; background-color:transparent;}
 .row3{color:#000; background-color:#FFF;}
@@ -401,7 +401,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#cc0000;}
 .row6, .row6 a{color: #9b9b9b;    background-color: #1f1f1f;}
 
 .wrapper.coloured{color:#000; background-color:#cc0000;}
-.wrapper.coloured.overlay::after{background-color:rgba(30, 65, 136, 0.86); background-image:none;}
+.wrapper.coloured.overlay::after{background-color:#169e78; background-image:none;}
 
 
 /* Top Bar */
@@ -450,7 +450,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#cc0000;}
 
 
 /* Navigation */
-#mainav{background-color:#1e4188; border-color:#69b637;}
+#mainav{background-color:#1e4188; border-color:#169e78;}
 @media screen and (max-width:900px){#mainav{background-color:#1e4188;}}
 #mainav li a{color:#FFFFFF; border-color:transparent;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{/* color:inherit; background-color:inherit; */ border-color:#cc0000;}

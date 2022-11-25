@@ -24,12 +24,14 @@
     width: 24.1%;
     float: left;
     padding: 0 10px;
+    
 }
 
 .col-1 {
     width: 25%;
     float: left;
     padding: 0 10px;
+    
 }
 
 .col-2 {
@@ -40,6 +42,12 @@
 .col-full {
     width: 100%;
     float: left;
+}
+
+.col-20{
+    width: 20%;
+    float: left;
+    padding: 0 10px;
 }
 
 .top-page-header-row {
