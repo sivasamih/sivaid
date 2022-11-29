@@ -185,6 +185,21 @@ thead {
      color: #39b54a !important;
  }
 
+
+ .black-para-hover-graphite {
+    font-weight: bold !important;
+    color: #000 !important;
+}
+
+ .black-para-hover-graphite:hover {
+    font-weight: bold !important;
+    color: #FFF !important;
+    background-color:#5E6A71 !important;
+    border-style: none !important;
+ }
+
+ 
+
  .left-product-image{
      width: 90%;
  }
