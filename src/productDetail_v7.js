@@ -37,32 +37,7 @@ $(document).ready(function () {
                             name:"Laser Printable Labels",
                             desc:"Our BS5609 approved materials for printing through dry toner laser or LED printers come in standard sheet sizes and can be ordered from stock for quick turnaround. The face stock may also accept print from some inkjet technologies.<br/><br/> For a specific size/shape that is not available from our stock our aim is to put down future stock so you can avoid any concerns about lead time issues. We can supply sheets, rolls or fan-folded labels dependent on your needs. We will help plan upcoming deliveries and ensure you are not in a position where you cannot print a label.",
                             img:"../img/products/productpage/imgs/Laser-Printable-Labels-01.jpg",
-                            products:[
-                                {
-                                    ref: "CHEMLABEL-1",
-                                    dimensions: "210mm x 296mm",
-                                    format: "1 per A4 Sheet",
-                                    printUsing: "Laser Toner Printer (Inkjet maybe)"
-                                },
-                                {
-                                    ref: "CHEMLABEL-2",
-                                    dimensions: "210mm x 148mm",
-                                    format: "2 per A4 Sheet",
-                                    printUsing: "Laser Toner Printer (Inkjet maybe)"
-                                },
-                                {
-                                    ref: "CHEMLABEL-4",
-                                    dimensions: "105mm x 148mm",
-                                    format: "4 per A4 Sheet",
-                                    printUsing: "Laser Toner Printer (Inkjet maybe)"
-                                },
-                                {
-                                    ref: "CHEMLABEL-2",
-                                    dimensions: "105mm x 74mm",
-                                    format: "2 per A4 Sheet",
-                                    printUsing: "Laser Toner Printer (Inkjet maybe)"
-                                },
-                            ]
+                            products:[]
                         },{
                             name:"Thermal Transfer Printable Labels",
                             desc:"Lowest print cost still comes from using a thermal transfer printer, some of the popular models include Zebra, Brother, Toshiba, Sato, Cab and TSC.  We have a range of products to suit your packaging and to meet the GHS guidelines on label sizing.  Also finding the best ribbon to overprint the labels is very important, we can help guide and supply you with the best ribbon to ensure that your information stays on the label if stored outside or during the rigors of transportation.",
@@ -185,167 +160,59 @@ $(document).ready(function () {
                                 </b>
                             </p>
                             <p style='text-align:justify !important'>
-                            Our manufacturing sites use only the highest quality materials, we are ISO9001:2015 certified across 4 key sites. Our team have been engineering ideas and solutions for identification purposes for over 25 years.
+                            Our manufacturing sites use only the highest quality materials, we are ISO9001:2015 certified across 4 key sites. Our team have been working in these markets for over 25 years.
                             </p>
                     `;
                     productCategory = [
                         {
                             name: "SIVA-100T - Heavy Duty Industrial Tags",
-                            desc: "Our SIVA-100T is a highly durable and weather resistant HDPE tag. Designed to carry your variable data and to stay with your product whist sitting in stock, then through its journey to your client. Available in different shapes and formats, can be attached with a self-tie loop, a punched hole or with banding slots for strapping. Find more info about SIVA-100T tags download the spec sheet here.",
-                            img:"../img/products/productpage/imgs/RUGGED-TAGS-01.jpg",
-                            products: [
-                                {
-                                    ref: "100T-1",
-                                    dimensions: "100mm x 152mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                },
-                                {
-                                    ref: "100T-2",
-                                    dimensions: "100mm x 101.6mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                },
-                                {
-                                    ref: "100T-3",
-                                    dimensions: "76mm x 127mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                },
-                                {
-                                    ref: "100T-4",
-                                    dimensions: "90mm x 127mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                }
-                            ]
+                            desc: "Our SIVA-100T is a highly durable and weather resistant tag made from a special white film. Designed to carry your variable data and to stay with your product whist sitting in stock, then through its journey to your client. Available in different shapes and formats, can be attached with a self-tie loop, a punched hole or with banding slots for strapping.<br/><br/> <a href='contactus.html'>For more info about SIVA-100T tags, get in touch with us</a>",
+                            img:"../img/products/productpage/imgs/1/1.jpg",
+                            products: []
                         },
                         {
                             name:"SIVA-HT200T - Heat Resistant Heavy Duty Tags",
-                            desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. HOT TAG ‘SIVA-200T’ is ideal for products like Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes.  Where most tags begin to fail at 80c the SIVA-200T tag can be used up to temperatures approaching 240c. <br/><br/> For more info see our spec sheet for SIVA-HT200T",
-                            img:"../img/products/productpage/imgs/200T-HOT-TAGS-01.jpg",
-                            products:[
-                                {
-                                    ref: "HT.200T-1",
-                                    dimensions: "100mm x 152mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                },{
-                                    ref: "HT.200T-2",
-                                    dimensions: "100mm x 101.6mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                },{
-                                    ref: "HT.200T-3",
-                                    dimensions: "76mm x 127mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                },{
-                                    ref: "HT.200T-4",
-                                    dimensions: "90mm x 127mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                },
-                            ],
+                            desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. HOT TAG ‘SIVA-HT200T’ is ideal for products like Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes. Where most tags begin to fail at 80°C the SIVA-HT200T tag can be used up to temperatures approaching 240°C.<br/><br/> <a href='contactus.html'>For more info about SIVA-HT200T tags, get in touch with us</a>",
+                            img:"../img/products/productpage/imgs/1/2.jpg",
+                            products:[],
                         },
                         {
                             name:"SIVA-HT300T - Heat Resistant Heavy Duty Tags",
-                            desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. HOT TAG ‘SIVA-300T’ is a tag ideal for products like Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes.  Its triple layered make up allows it to resist temperatures around 300c and slight above dependent on positioning.<br/><br/> For more info see our spec sheet for SIVA-HT300T",
-                            img:"../img/products/productpage/imgs/300T-HOT-TAGS-01.jpg",
-                            products:[
-                                {
-                                    ref: "HT.300T-1",
-                                    dimensions: "100mm x 152mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                },{
-                                    ref: "HT.300T-2",
-                                    dimensions: "100mm x 101.6mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                },{
-                                    ref: "HT.300T-3",
-                                    dimensions: "76mm x 127mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                },{
-                                    ref: "HT.300T-4",
-                                    dimensions: "90mm x 127mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                },
-                            ],
+                            desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. HOT TAG ‘SIVA-HT300T’ is a tag ideal for products like Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes. It's triple layered make up allows it to resist temperatures around 300°C and slightly above, dependent on the positioning.<br/><br/> <a href='contactus.html'>For more info about SIVA-HT300T tags, get in touch with us</a>",
+                            img:"../img/products/productpage/imgs/1/3.jpg",
+                            products:[],
                         },
                         {
-                            name:"SIVA-HT500T - High Temperature  Heavy Duty Tags",
-                            desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. Our highest performer is the ‘SIVA-500T’, ideal for products like Blooms, Billets, Slabs, Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes.  Its Polyimide properties with specialist coating allows it to resist temperatures up to 550c, subject to positioning and cooling profile of the steel/metal.<br/><br/>For more info see our spec sheet for SIVA-HT500T",
-                            img:"../img/products/productpage/imgs/500T-HOT-TAGS-01.jpg",
-                            products:[
-                                {
-                                    ref: "HT.500T-1",
-                                    dimensions: "100mm x 152mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                },{
-                                    ref: "HT.500T-2",
-                                    dimensions: "100mm x 101.6mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                },{
-                                    ref: "HT.500T-3",
-                                    dimensions: "76mm x 127mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                },{
-                                    ref: "HT.500T-4",
-                                    dimensions: "90mm x 127mm",
-                                    format: "Rolls of 500, 76mm Core",
-                                    printUsing: "Thermal Transfer Printer"
-                                },
-                            ],
+                            name:"SIVA-HT500T - High Temperature Heavy Duty Tags",
+                            desc:"We work with Steel Mills globally to supply tags that can withstand the heat involved with products that are cooling. Our highest performer is the ‘SIVA-HT500T’, ideal for products like Blooms, Billets, Slabs, Re-bar, Flat Rods, Coiled Rods, Sections, Rounds, Ingots, Bars and Tubes. Its Polyimide properties with specialist coating allow it to resist temperatures up to 550°C, subject to the positioning and cooling profile of the steel/metal.<br/><br/> <a href='contactus.html'>For more info about SIVA-HT500T tags, get in touch with us</a>",
+                            img:"../img/products/productpage/imgs/1/4.jpg",
+                            products:[],
                         },
                         {
                             name:"STC-LTX - Laser Printable Durable Sheet Fed Tags",
-                            desc:"Popular in distribution facilities are laser printable tags supplied on sheets. These are usually supplied plain or printed with a logo (or CARES details) on reverse. Printable through desktop laser printers such as Lexmark, HP, Canon, OKI, Brother & Sharp. Toner based inks on our temperature resistant polyester is a good combination for durable tagging of your products. We hold the main stock sizes of 4 per sheet, 5 per sheet and 8 per sheet in stock ready for you to call off.<br/><br/>For more info about our SIVA-LT range here.",
-                            img:"../img/products/productpage/imgs/supply-of-steel-01.jpg",
-                            products:[
-                                {
-                                    ref: "LT4",
-                                    dimensions: "210mm x 74mm (40mm tab)",
-                                    format: "4/Sheet, Packs of 250 Sheets",
-                                    printUsing: "Laser - Toner"
-                                },{
-                                    ref: "LT5",
-                                    dimensions: "210mm x 59mm (80mm tab)",
-                                    format: "5/Sheet, Packs of 250 Sheets",
-                                    printUsing: "Laser - Toner"
-                                },{
-                                    ref: "LT8",
-                                    dimensions: "105mm x 74mm (no tab)",
-                                    format: "8/Sheet, Packs of 250 Sheets",
-                                    printUsing: "Laser - Toner"
-                                },
-                            ],
+                            desc:"Popular in distribution facilities, laser printable tags are supplied on sheets. These are usually supplied plain or printed with a logo (or CARES details) on the reverse. Printable through desktop laser printers such as Lexmark, HP, Canon, OKI, Brother & Sharp. Toner based inks on our temperature resistant polyester are a good combination for durable tagging of your products. We hold the main stock sizes of 4 per sheet, 5 per sheet and 8 per sheet in stock ready for you to call off.<br/><br/> <a href='contactus.html'>For more info about our SIVA-LT tags, get in touch with us</a>",
+                            img:"../img/products/productpage/imgs/1/5.jpg",
+                            products:[],
                         },
                         {
                             name:"Durable Self-Adhesive Labels",
-                            desc:"Labelling products that need to withstand harsh conditions or just external weathering can be difficult. We can guide you to the right solution for your products, with various adhesives to suit different conditions. Labelling hot or cold products is possible with our range of self-adhesive labels. <br/><br/> We are currently developing a range of substrates and adhesives suitable for different surfaces or relevant to heat resistance. Please get in touch to explain your needs so we can guide you.",
-                            img:"../img/products/productpage/imgs/steel-coil-01.jpg",
+                            desc:"Labelling products that need to withstand harsh conditions or just external weathering can be difficult. We can guide you to the right solution for your products, with various adhesives to suit different conditions. Labelling hot or cold products is possible with our range of self-adhesive labels.<br/><br/>We are currently developing a range of substrates and adhesives suitable for different surfaces or relevant to heat resistance. Please get in touch to explain your needs so we can guide you.",
+                            img:"../img/products/productpage/imgs/1/6.jpg",
                         },
                         {
                             name:"Customized Tags & Labels",
                             desc:"For a specific size/shape or a printed tag or label that is not available from our stock we can manufacture any shape or size within the scope of our presses. We can supply sheets, rolls or fan-folded tags dependent on your requirement. We can supply plain or add print and logos as required. We will help plan upcoming deliveries carefully and ensure you are not in a position where you cannot print a label or tag.",
-                            img:"../img/products/productpage/imgs/blank-img.jpg",
+                            img:"../img/products/productpage/imgs/1/7.jpg",
                         },
                         {
                             name:"Tag Attachments",
                             desc:"When tagging product there is a host of methods for attaching, including clips, stud welding or nailing to product. We can supply attachments suitable for your application.",
-                            img:"../img/products/productpage/imgs/Tag-Attachments-01.jpg",
+                            img:"../img/products/productpage/imgs/1/8.jpg",
                         },
                         {
                             name:"Printer Consumables",
                             desc:"A good tag or label that is thermally overprinted needs to be carefully matched to the best ribbon combination that can also withstand the conditions your product goes through. We are happy to recommend and supply the most suitable ribbons for our products to ensure that the data stays with the product.",
-                            img:"../img/products/productpage/imgs/Printer-Consumables-01.jpg",
+                            img:"../img/products/productpage/imgs/1/9.jpg",
                         }
 
                     ];
@@ -446,8 +313,10 @@ $(document).ready(function () {
                                         </div>
                                         <div class="two_third">
                                         <div style=""> 
-                                        <p style='text-align:justify !important'>
+                                        <p style='text-align:justify !important;color:#424242 !important'>
+                                            <b>
                                             ${productCategory[p].desc}
+                                            </b>
                                         </p>
                                         </div>
                                         </div>
