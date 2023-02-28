@@ -167,7 +167,7 @@ $(document).ready(function () {
                         {
                             name: "SIVA-100T - Heavy Duty Industrial Tags",
                             desc: "Our SIVA-100T is a highly durable and weather resistant tag made from a special white film. Designed to carry your variable data and to stay with your product whist sitting in stock, then through its journey to your client. Available in different shapes and formats, can be attached with a self-tie loop, a punched hole or with banding slots for strapping.<br/><br/> <a href='contactus.html'>For more info about SIVA-100T tags, get in touch with us</a>",
-                            img:"../img/products/productpage/imgs/1/1.jpg",
+                            img:"../img/products/productpage/imgs/1/1.png",
                             products: []
                         },
                         {
