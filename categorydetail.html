@@ -454,20 +454,44 @@
 
 
               try {
+                const url = new URL(window.location.href);
+                let href="";
+                try{
+                  href=url.href;
+                }catch(ex){}
+                
                 const reqData = {
-                  source: 2,
-                  type: 4,
-                  data: {
-                    name: name,
-                    email: email
+                  WebsiteData: {
+                    SourceID: 2,
+                    TypeID: 4,
+                    isChecked:false,
+                    JsonData: JSON.stringify({
+                      name: name,
+                      email: email,
+                      url: href
+                    })
                   }
                 };
+                console.log("reqData > ",reqData)
 
-                $.post("test.php", reqData)
-                  .done(function (data) {
-                    console.log("data : ", data)
-                  });
-              } catch (ex) { }
+                const APIURL="http://192.168.10.200:8082/api/WebSite/Add_Update_WebsiteData";
+
+                $.ajax({
+                  type: "POST",
+                  url: APIURL,
+                  contentType: "application/json",
+                  dataType: "json",
+                  data: JSON.stringify(reqData),
+                  success: function (response) {
+                    console.log(response);
+                  },
+                  error: function (response) {
+                    console.log(response);
+                  }
+                });
+              } catch (ex) { 
+                console.log('ex: ' + ex);
+              }
 
               
             } else {

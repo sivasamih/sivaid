@@ -64,17 +64,28 @@
                 <textarea name="message" id="message" rows="1" required placeholder="Enter your Message"></textarea>
               </div>
               <div class="one_third first">
-                <div style="margin-top: 42px;">
+                <div style="margin-top: 40px;">
                   <table style="border-style: none;">
                     <tr>
                       <td>
-                        <input type="submit" name="submit" value="Submit" data-submit="...Sending" style="width: 50%;">
+                        <input 
+                        id="submitBtn"
+                        type="button" 
+                        name="submit" 
+                        value="Submit" 
+                        style="width: 50%;">
                       </td>
                       <td>
-                        <input type="reset" name="reset" value="Reset" style="width: 50%;">
+                        <input id="resetBtn" type="reset" name="reset" value="Reset" style="width: 50%;">
                       </td>
                     </tr>
+                     
                   </table>
+                </div>
+              </div>
+              <div class="two_third ">
+                <div style="margin-top: 40px;">
+                  <div id="msgdisplay"></div>
                 </div>
               </div>
             </form>
@@ -148,6 +159,101 @@
 
   <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
   <!-- JAVASCRIPTS -->
+
+<script>
+
+  function validateEmail(emailc) {
+    var reg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return reg.test(emailc);
+  }
+
+  $(document).ready(function () {
+    $("#submitBtn").click(function () {
+
+
+      let name = $("#name").val();
+      let email = $("#email").val();
+      let company = $("#company").val();
+      let phone = $("#phone").val();
+      let message = $("#message").val();
+      var mailvalid = validateEmail(email);
+
+      if (name.trim() !== "" &&
+        email.trim() !== "" &&
+        company.trim() !== "" &&
+        phone.trim() !== "" &&
+        message.trim() !== "" &&
+        mailvalid === true) {
+
+
+
+          try {
+        const url = new URL(window.location.href);
+        let href = "";
+        try {
+          href = url.href;
+        } catch (ex) { }
+
+        const reqData = {
+          WebsiteData: {
+            SourceID: 2,
+            TypeID: 1,
+            isChecked: false,
+            JsonData: JSON.stringify({
+              name: name,
+              email: email,
+              company:company,
+              phone:phone,
+              message:message,
+              url: href
+            })
+          }
+        };
+        console.log("reqData > ", reqData)
+
+        const APIURL = "http://192.168.10.200:8082/api/WebSite/Add_Update_WebsiteData";
+
+        $.ajax({
+          type: "POST",
+          url: APIURL,
+          contentType: "application/json",
+          dataType: "json",
+          data: JSON.stringify(reqData),
+          success: function (response) {
+            console.log(response);
+          },
+          error: function (response) {
+            console.log(response);
+          }
+        });
+      } catch (ex) {
+        console.log('ex: ' + ex);
+      }
+
+      } else {
+        alert("Enter Details properly");
+      }
+
+      $("#resetBtn").click();
+        
+      $("#msgdisplay").html("<p style='color:#fff;text-align:center'><strong>Processing...</strong></p>");
+      setTimeout(function () {
+        $("#msgdisplay").html("<p style='color:#39b54a;text-align:center'><strong>Success! Your request has been processed, We will contact you soon!</strong></p>");
+      }.bind(this), 1000);
+
+      
+      setTimeout(function () {
+        $("#msgdisplay").html("");
+      }.bind(this), 3000);
+
+      
+
+
+    });
+  });
+</script>
+
+
   <!-- <script src="layout/scripts/jquery.min.js"></script> -->
   <script src="layout/scripts/jquery.backtotop.js"></script>
   <script src="layout/scripts/jquery.mobilemenu.js"></script>
