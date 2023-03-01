@@ -452,23 +452,23 @@
                 $("#emailc").val('');
               }.bind(this), 3000);
 
-/*
-              $.ajax({
-										type: 'POST',
-										url: 'sendmessage.php',
-										data: data,
-										success: function (data) {
-											if (data == "true") {
-                        $("#msgdisplay").html("<p><strong>Success! Your request has been processed, We will contact you soon!</strong></p>");
-                        setTimeout(function () {
-                             $('.close').click();
-                        }.bind(this), 1000);
 
-												 
-											}
-										}
-									});
-                  */
+              try {
+                const reqData = {
+                  source: 2,
+                  type: 4,
+                  data: {
+                    name: name,
+                    email: email
+                  }
+                };
+
+                $.post("test.php", reqData)
+                  .done(function (data) {
+                    console.log("data : ", data)
+                  });
+              } catch (ex) { }
+
               
             } else {
               alert("Enter Details properly");
